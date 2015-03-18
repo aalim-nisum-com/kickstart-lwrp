@@ -1,0 +1,1097 @@
+I, [2015-03-18T10:24:29.170662 #2846]  INFO -- default-ubuntu-1404: -----> Destroying <default-ubuntu-1404>...
+I, [2015-03-18T10:24:31.394877 #2846]  INFO -- default-ubuntu-1404: ==> default: VM not created. Moving on...
+I, [2015-03-18T10:24:31.439349 #2846]  INFO -- default-ubuntu-1404: Vagrant instance <default-ubuntu-1404> destroyed.
+I, [2015-03-18T10:24:31.441906 #2846]  INFO -- default-ubuntu-1404: Finished destroying <default-ubuntu-1404> (0m2.27s).
+I, [2015-03-18T10:25:18.939016 #2953]  INFO -- default-ubuntu-1404: -----> Creating <default-ubuntu-1404>...
+I, [2015-03-18T10:25:20.557143 #2953]  INFO -- default-ubuntu-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2015-03-18T10:25:20.939525 #2953]  INFO -- default-ubuntu-1404: ==> default: Importing base box 'ubuntu/trusty64'...
+I, [2015-03-18T10:25:35.284238 #3059]  INFO -- default-ubuntu-1404: -----> Destroying <default-ubuntu-1404>...
+I, [2015-03-18T10:25:35.284974 #3059]  INFO -- default-ubuntu-1404: Finished destroying <default-ubuntu-1404> (0m0.00s).
+I, [2015-03-18T10:25:40.704235 #3132]  INFO -- default-ubuntu-1404: -----> Creating <default-ubuntu-1404>...
+I, [2015-03-18T10:25:42.377076 #3132]  INFO -- default-ubuntu-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2015-03-18T10:25:42.560746 #3132]  INFO -- default-ubuntu-1404: ==> default: Importing base box 'ubuntu/trusty64'...
+[KProgress: 90%[KI, [2015-03-18T10:26:10.467178 #3132]  INFO -- default-ubuntu-1404: ==> default: Matching MAC address for NAT networking...
+I, [2015-03-18T10:26:10.638540 #3132]  INFO -- default-ubuntu-1404: ==> default: Checking if box 'ubuntu/trusty64' is up to date...
+I, [2015-03-18T10:26:12.001217 #3132]  INFO -- default-ubuntu-1404: ==> default: Setting the name of the VM: default-ubuntu-1404_default_1426699571962_62246
+I, [2015-03-18T10:26:12.109579 #3132]  INFO -- default-ubuntu-1404: ==> default: Clearing any previously set forwarded ports...
+I, [2015-03-18T10:26:12.661562 #3132]  INFO -- default-ubuntu-1404: ==> default: Clearing any previously set network interfaces...
+I, [2015-03-18T10:26:12.712175 #3132]  INFO -- default-ubuntu-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2015-03-18T10:26:12.712530 #3132]  INFO -- default-ubuntu-1404:     default: Adapter 1: nat
+I, [2015-03-18T10:26:12.758124 #3132]  INFO -- default-ubuntu-1404: ==> default: Forwarding ports...
+I, [2015-03-18T10:26:12.821528 #3132]  INFO -- default-ubuntu-1404:     default: 22 => 2222 (adapter 1)
+I, [2015-03-18T10:26:12.960301 #3132]  INFO -- default-ubuntu-1404: ==> default: Running 'pre-boot' VM customizations...
+I, [2015-03-18T10:26:13.044256 #3132]  INFO -- default-ubuntu-1404: ==> default: Booting VM...
+I, [2015-03-18T10:26:13.703592 #3132]  INFO -- default-ubuntu-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2015-03-18T10:26:14.070702 #3132]  INFO -- default-ubuntu-1404:     default: SSH address: 127.0.0.1:2222
+I, [2015-03-18T10:26:14.070832 #3132]  INFO -- default-ubuntu-1404:     default: SSH username: vagrant
+I, [2015-03-18T10:26:14.071024 #3132]  INFO -- default-ubuntu-1404:     default: SSH auth method: private key
+I, [2015-03-18T10:26:29.221369 #3132]  INFO -- default-ubuntu-1404:     default: Warning: Connection timeout. Retrying...
+I, [2015-03-18T10:26:29.377114 #3132]  INFO -- default-ubuntu-1404:     default: Warning: Remote connection disconnect. Retrying...
+I, [2015-03-18T10:26:42.507025 #3132]  INFO -- default-ubuntu-1404:     default: 
+I, [2015-03-18T10:26:42.507107 #3132]  INFO -- default-ubuntu-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2015-03-18T10:26:42.507151 #3132]  INFO -- default-ubuntu-1404:     default: this with a newly generated keypair for better security.
+I, [2015-03-18T10:26:42.831481 #3132]  INFO -- default-ubuntu-1404:     default: 
+I, [2015-03-18T10:26:42.831563 #3132]  INFO -- default-ubuntu-1404:     default: Inserting generated public key within guest...
+I, [2015-03-18T10:26:42.913160 #3132]  INFO -- default-ubuntu-1404:     default: Removing insecure key from the guest if its present...
+I, [2015-03-18T10:26:42.966152 #3132]  INFO -- default-ubuntu-1404:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2015-03-18T10:26:50.836980 #3132]  INFO -- default-ubuntu-1404: ==> default: Machine booted and ready!
+I, [2015-03-18T10:26:50.837446 #3132]  INFO -- default-ubuntu-1404: ==> default: Checking for guest additions in VM...
+I, [2015-03-18T10:26:50.877852 #3132]  INFO -- default-ubuntu-1404: ==> default: Setting hostname...
+I, [2015-03-18T10:26:51.725954 #3132]  INFO -- default-ubuntu-1404: ==> default: Machine not provisioning because `--no-provision` is specified.
+I, [2015-03-18T10:26:53.872725 #3132]  INFO -- default-ubuntu-1404: Vagrant instance <default-ubuntu-1404> created.
+I, [2015-03-18T10:26:53.874489 #3132]  INFO -- default-ubuntu-1404: Finished creating <default-ubuntu-1404> (1m13.17s).
+I, [2015-03-18T10:26:53.874592 #3132]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:26:53.875624 #3132]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:26:53.876060 #3132]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:26:53.914310 #3132]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+-----> Installing Chef Omnibus (true)I, [2015-03-18T10:27:01.080544 #3132]  INFO -- default-ubuntu-1404: 
+downloading https://www.getchef.com/chef/install.shI, [2015-03-18T10:27:01.080788 #3132]  INFO -- default-ubuntu-1404: 
+  to file /tmp/install.shI, [2015-03-18T10:27:01.081050 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:27:01.081084 #3132]  INFO -- default-ubuntu-1404: trying wget...
+I, [2015-03-18T10:27:01.081239 #3132]  INFO -- default-ubuntu-1404: 
+Downloading Chef  for ubuntu...I, [2015-03-18T10:27:08.138008 #3132]  INFO -- default-ubuntu-1404: 
+downloading https://www.chef.io/chef/metadata?v=&prerelease=false&nightlies=false&p=ubuntu&pv=14.04&m=x86_64I, [2015-03-18T10:27:08.138311 #3132]  INFO -- default-ubuntu-1404: 
+  to file /tmp/install.sh.2088/metadata.txtI, [2015-03-18T10:27:08.138607 #3132]  INFO -- default-ubuntu-1404: 
+trying wget...I, [2015-03-18T10:27:08.139026 #3132]  INFO -- default-ubuntu-1404: 
+url	https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/13.04/x86_64/chef_12.1.1-1_amd64.debI, [2015-03-18T10:27:14.312798 #3132]  INFO -- default-ubuntu-1404: 
+md5	028e2335ff309fa4555ed0dfd486162fI, [2015-03-18T10:27:14.313956 #3132]  INFO -- default-ubuntu-1404: 
+sha256	108bc8a1786b1a4cfbb42dcea0e4990221340aae669878df3f67fffe1fb1ad24I, [2015-03-18T10:27:14.314796 #3132]  INFO -- default-ubuntu-1404: 
+downloaded metadata file looks valid...I, [2015-03-18T10:27:14.318591 #3132]  INFO -- default-ubuntu-1404: 
+downloading https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/13.04/x86_64/chef_12.1.1-1_amd64.debI, [2015-03-18T10:27:14.327401 #3132]  INFO -- default-ubuntu-1404: 
+  to file /tmp/install.sh.2088/chef_12.1.1-1_amd64.debI, [2015-03-18T10:27:14.327806 #3132]  INFO -- default-ubuntu-1404: 
+trying wget...I, [2015-03-18T10:27:14.328324 #3132]  INFO -- default-ubuntu-1404: 
+Comparing checksum with sha256sum...I, [2015-03-18T10:27:54.663872 #3132]  INFO -- default-ubuntu-1404: 
+Installing Chef I, [2015-03-18T10:27:54.902860 #3132]  INFO -- default-ubuntu-1404: 
+installing with dpkg...I, [2015-03-18T10:27:54.903094 #3132]  INFO -- default-ubuntu-1404: 
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60919 files and directories currently installed.)I, [2015-03-18T10:27:55.084393 #3132]  INFO -- default-ubuntu-1404: 
+Preparing to unpack .../chef_12.1.1-1_amd64.deb ...I, [2015-03-18T10:27:55.086831 #3132]  INFO -- default-ubuntu-1404: 
+ * Stopping chef-client chef-client       [80G [74G[ OK ]I, [2015-03-18T10:27:55.146455 #3132]  INFO -- default-ubuntu-1404: 
+Unpacking chef (12.1.1-1) over (11.8.2-2) ...I, [2015-03-18T10:27:55.151911 #3132]  INFO -- default-ubuntu-1404: 
+dpkg: warning: unable to delete old directory '/var/log/chef': Directory not emptyI, [2015-03-18T10:28:01.186722 #3132]  INFO -- default-ubuntu-1404: 
+dpkg: warning: unable to delete old directory '/etc/chef': Directory not emptyI, [2015-03-18T10:28:01.188778 #3132]  INFO -- default-ubuntu-1404: 
+Setting up chef (12.1.1-1) ...I, [2015-03-18T10:28:01.226938 #3132]  INFO -- default-ubuntu-1404: 
+Thank you for installing Chef!I, [2015-03-18T10:28:01.330188 #3132]  INFO -- default-ubuntu-1404: 
+Processing triggers for man-db (2.6.7.1-1) ...I, [2015-03-18T10:28:01.337813 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:01.852413 #3132]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:28:02+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:28:02.657839 #3132]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:28:02.717110 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:02+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:28:02.717392 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:02+00:00] INFO: Chef-client pid: 2638I, [2015-03-18T10:28:02.717718 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:09+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:28:09.184308 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:09+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:28:09.186765 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:09+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:28:09.187172 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:09+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:28:09.187533 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:09+00:00] INFO: Running start handlersI, [2015-03-18T10:28:09.187789 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:09+00:00] INFO: Start handlers complete.I, [2015-03-18T10:28:09.188200 #3132]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:28:09.192515 #3132]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:28:09.194996 #3132]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:28:09.195245 #3132]  INFO -- default-ubuntu-1404: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb[0mI, [2015-03-18T10:28:09.195474 #3132]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:28:09.195806 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:09.196055 #3132]  INFO -- default-ubuntu-1404: 
+[0mNoMethodError[0mI, [2015-03-18T10:28:09.196525 #3132]  INFO -- default-ubuntu-1404: 
+-------------[0mI, [2015-03-18T10:28:09.197005 #3132]  INFO -- default-ubuntu-1404: 
+undefined method `[]' for nil:NilClass[0mI, [2015-03-18T10:28:09.197398 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:09.197602 #3132]  INFO -- default-ubuntu-1404: 
+[0mCookbook Trace:[0mI, [2015-03-18T10:28:09.198370 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:09.198407 #3132]  INFO -- default-ubuntu-1404: ---------------[0m
+I, [2015-03-18T10:28:09.198439 #3132]  INFO -- default-ubuntu-1404:   /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:10:in `class_from_file'[0m
+I, [2015-03-18T10:28:09.198464 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:09.198486 #3132]  INFO -- default-ubuntu-1404: [0mRelevant File Content:[0m
+I, [2015-03-18T10:28:09.198530 #3132]  INFO -- default-ubuntu-1404: ----------------------[0m
+I, [2015-03-18T10:28:09.198770 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:09.198799 #3132]  INFO -- default-ubuntu-1404: /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:
+I, [2015-03-18T10:28:09.198823 #3132]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:28:09.198844 #3132]  INFO -- default-ubuntu-1404: [0m  3:  
+I, [2015-03-18T10:28:09.198866 #3132]  INFO -- default-ubuntu-1404: [0m  4:  default_action :create if defined?(default_action)
+I, [2015-03-18T10:28:09.198888 #3132]  INFO -- default-ubuntu-1404: [0m  5:  
+I, [2015-03-18T10:28:09.198909 #3132]  INFO -- default-ubuntu-1404: [0m  6:  #Name Space
+I, [2015-03-18T10:28:09.199109 #3132]  INFO -- default-ubuntu-1404: [0m  7:  attribute :base_name, :name_attribute => true, :kind_of => String, :required => false, :default => 'default'
+I, [2015-03-18T10:28:09.199138 #3132]  INFO -- default-ubuntu-1404: [0m  8:  
+I, [2015-03-18T10:28:09.199182 #3132]  INFO -- default-ubuntu-1404: [0m  9:  #Example Parameters
+I, [2015-03-18T10:28:09.199205 #3132]  INFO -- default-ubuntu-1404: [0m 10>> attribute :string_param, :kind_of => String, :required => false, :default => node["kickstart-lwrp"]["default"]["string_param"]
+I, [2015-03-18T10:28:09.199227 #3132]  INFO -- default-ubuntu-1404: [0m 11:  attribute :boolean_param, :kind_of => [ TrueClass, FalseClass ], :required => false, :default => node["kickstart-lwrp"]["default"]["boolean_param"]
+I, [2015-03-18T10:28:09.199249 #3132]  INFO -- default-ubuntu-1404: [0m 12:  attribute :array_param, :kind_of => Array, :required => false, :default => node["kickstart-lwrp"]["default"]["array_param"]
+I, [2015-03-18T10:28:09.199271 #3132]  INFO -- default-ubuntu-1404: [0m 13:  attribute :hash_param, :kind_of => Hash, :required => false, :default => node["kickstart-lwrp"]["default"]["hash_param"]
+I, [2015-03-18T10:28:09.199293 #3132]  INFO -- default-ubuntu-1404: [0m 14:  
+I, [2015-03-18T10:28:09.199315 #3132]  INFO -- default-ubuntu-1404: [0m 15:  attr_accessor :exists 16:  [0m
+I, [2015-03-18T10:28:09.199540 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:09.199568 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:09.199746 #3132]  INFO -- default-ubuntu-1404: [0m[0m
+I, [2015-03-18T10:28:09.199774 #3132]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:28:09.199999 #3132]  INFO -- default-ubuntu-1404: [2015-03-18T17:28:09+00:00] ERROR: Running exception handlers
+I, [2015-03-18T10:28:09.200034 #3132]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:28:09.200060 #3132]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:28:09+00:00] ERROR: Exception handlers complete
+I, [2015-03-18T10:28:09.200522 #3132]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:28:09.200618 #3132]  INFO -- default-ubuntu-1404: [2015-03-18T17:28:09+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2015-03-18T10:28:09.200766 #3132]  INFO -- default-ubuntu-1404: 
+Chef Client failed. 0 resources updated in 6.544224291 seconds[0mI, [2015-03-18T10:28:09.200992 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:09+00:00] ERROR: undefined method `[]' for nil:NilClassI, [2015-03-18T10:28:09.225483 #3132]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:28:09+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2015-03-18T10:28:09.266291 #3132]  INFO -- default-ubuntu-1404: 
+E, [2015-03-18T10:28:09.295697 #3132] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2015-03-18T10:28:09.295829 #3132] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2015-03-18T10:28:09.295855 #3132] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-03-18T10:28:09.295875 #3132] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:28:09.295905 #3132] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2015-03-18T10:28:09.295926 #3132] ERROR -- default-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-03-18T10:28:09.295945 #3132] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:28:09.295964 #3132] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2015-03-18T10:28:09.295983 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2015-03-18T10:28:09.296005 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2015-03-18T10:28:09.296025 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2015-03-18T10:28:09.296044 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2015-03-18T10:28:09.296063 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2015-03-18T10:28:09.296082 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2015-03-18T10:28:09.296102 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-03-18T10:28:09.296121 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2015-03-18T10:28:09.296140 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2015-03-18T10:28:09.296159 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2015-03-18T10:28:09.296180 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2015-03-18T10:28:09.296200 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2015-03-18T10:28:09.296276 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2015-03-18T10:28:09.296300 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2015-03-18T10:28:09.296320 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2015-03-18T10:28:09.296339 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2015-03-18T10:28:09.296358 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2015-03-18T10:28:09.296377 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2015-03-18T10:28:09.296396 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2015-03-18T10:28:09.296415 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2015-03-18T10:28:09.296441 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2015-03-18T10:28:09.296463 #3132] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2015-03-18T10:28:09.296482 #3132] ERROR -- default-ubuntu-1404: ----------------------
+I, [2015-03-18T10:30:59.351374 #3368]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:30:59.353203 #3368]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:30:59.353589 #3368]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:30:59.357524 #3368]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:31:06.497566 #3368]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:31:07+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:31:07.281029 #3368]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:31:07.334132 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:07+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:31:07.334674 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:07+00:00] INFO: Chef-client pid: 2862I, [2015-03-18T10:31:07.335083 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:13+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:31:13.678360 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:13+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:31:13.681273 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:13+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:31:13.682418 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:13+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:31:13.682809 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:13+00:00] INFO: Running start handlersI, [2015-03-18T10:31:13.683192 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:13+00:00] INFO: Start handlers complete.I, [2015-03-18T10:31:13.683588 #3368]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:31:13.688239 #3368]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:31:13.690132 #3368]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:31:13.690460 #3368]  INFO -- default-ubuntu-1404: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb[0mI, [2015-03-18T10:31:13.691038 #3368]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:31:13.691454 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.691658 #3368]  INFO -- default-ubuntu-1404: 
+[0mNoMethodError[0mI, [2015-03-18T10:31:13.692031 #3368]  INFO -- default-ubuntu-1404: 
+-------------[0mI, [2015-03-18T10:31:13.692356 #3368]  INFO -- default-ubuntu-1404: 
+undefined method `[]' for nil:NilClass[0mI, [2015-03-18T10:31:13.692705 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.692881 #3368]  INFO -- default-ubuntu-1404: 
+[0mCookbook Trace:[0mI, [2015-03-18T10:31:13.693284 #3368]  INFO -- default-ubuntu-1404: 
+---------------[0mI, [2015-03-18T10:31:13.693637 #3368]  INFO -- default-ubuntu-1404: 
+  /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:10:in `class_from_file'[0mI, [2015-03-18T10:31:13.693963 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.694119 #3368]  INFO -- default-ubuntu-1404: 
+[0mRelevant File Content:[0mI, [2015-03-18T10:31:13.694581 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.694617 #3368]  INFO -- default-ubuntu-1404: ----------------------[0m
+I, [2015-03-18T10:31:13.694643 #3368]  INFO -- default-ubuntu-1404: /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:
+I, [2015-03-18T10:31:13.694689 #3368]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:31:13.694719 #3368]  INFO -- default-ubuntu-1404: [0m  3:  
+I, [2015-03-18T10:31:13.694792 #3368]  INFO -- default-ubuntu-1404: [0m  4:  default_action :create if defined?(default_action)
+I, [2015-03-18T10:31:13.694997 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.695030 #3368]  INFO -- default-ubuntu-1404: [0m  5:  
+I, [2015-03-18T10:31:13.695055 #3368]  INFO -- default-ubuntu-1404: [0m  6:  #Name Space
+I, [2015-03-18T10:31:13.695077 #3368]  INFO -- default-ubuntu-1404: [0m  7:  attribute :base_name, :name_attribute => true, :kind_of => String, :required => false, :default => 'default'
+I, [2015-03-18T10:31:13.695100 #3368]  INFO -- default-ubuntu-1404: [0m  8:  
+I, [2015-03-18T10:31:13.695122 #3368]  INFO -- default-ubuntu-1404: [0m  9:  #Example Parameters
+I, [2015-03-18T10:31:13.695153 #3368]  INFO -- default-ubuntu-1404: [0m 10>> attribute :string_param, :kind_of => String, :required => false, :default => node["kickstart-lwrp"]["default"]["string_param"]
+I, [2015-03-18T10:31:13.695183 #3368]  INFO -- default-ubuntu-1404: [0m 11:  attribute :boolean_param, :kind_of => [ TrueClass, FalseClass ], :required => false, :default => node["kickstart-lwrp"]["default"]["boolean_param"]
+I, [2015-03-18T10:31:13.695206 #3368]  INFO -- default-ubuntu-1404: [0m 12:  attribute :array_param, :kind_of => Array, :required => false, :default => node["kickstart-lwrp"]["default"]["array_param"]
+I, [2015-03-18T10:31:13.695581 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.695616 #3368]  INFO -- default-ubuntu-1404: [0m 13:  attribute :hash_param, :kind_of => Hash, :required => false, :default => node["kickstart-lwrp"]["default"]["hash_param"]
+I, [2015-03-18T10:31:13.695642 #3368]  INFO -- default-ubuntu-1404: [0m 14:  
+I, [2015-03-18T10:31:13.695665 #3368]  INFO -- default-ubuntu-1404: [0m 15:  attr_accessor :exists 16:  [0m
+I, [2015-03-18T10:31:13.695687 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.695708 #3368]  INFO -- default-ubuntu-1404: [0m[0m
+I, [2015-03-18T10:31:13.695878 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.695938 #3368]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:31:13.695962 #3368]  INFO -- default-ubuntu-1404: [2015-03-18T17:31:13+00:00] ERROR: Running exception handlers
+I, [2015-03-18T10:31:13.696296 #3368]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:31:13.696326 #3368]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:31:13.696349 #3368]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:31:13+00:00] ERROR: Exception handlers complete
+[2015-03-18T17:31:13+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.outI, [2015-03-18T10:31:13.696710 #3368]  INFO -- default-ubuntu-1404: 
+Chef Client failed. 0 resources updated in 6.417038182 seconds[0mI, [2015-03-18T10:31:13.698546 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:13+00:00] ERROR: undefined method `[]' for nil:NilClassI, [2015-03-18T10:31:13.723176 #3368]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:31:13+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2015-03-18T10:31:13.759359 #3368]  INFO -- default-ubuntu-1404: 
+E, [2015-03-18T10:31:13.786550 #3368] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2015-03-18T10:31:13.786743 #3368] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2015-03-18T10:31:13.786777 #3368] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-03-18T10:31:13.786799 #3368] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:31:13.786820 #3368] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2015-03-18T10:31:13.786839 #3368] ERROR -- default-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-03-18T10:31:13.786870 #3368] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:31:13.786892 #3368] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2015-03-18T10:31:13.786912 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2015-03-18T10:31:13.786932 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2015-03-18T10:31:13.786952 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2015-03-18T10:31:13.786998 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2015-03-18T10:31:13.787020 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2015-03-18T10:31:13.787040 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2015-03-18T10:31:13.787061 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-03-18T10:31:13.787080 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2015-03-18T10:31:13.787102 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2015-03-18T10:31:13.787122 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2015-03-18T10:31:13.787142 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2015-03-18T10:31:13.787162 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2015-03-18T10:31:13.787181 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2015-03-18T10:31:13.787203 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2015-03-18T10:31:13.787223 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2015-03-18T10:31:13.787242 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2015-03-18T10:31:13.787262 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2015-03-18T10:31:13.787281 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2015-03-18T10:31:13.787301 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2015-03-18T10:31:13.787320 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2015-03-18T10:31:13.787341 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2015-03-18T10:31:13.787368 #3368] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2015-03-18T10:31:13.787389 #3368] ERROR -- default-ubuntu-1404: ----------------------
+I, [2015-03-18T10:33:59.599894 #3450]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:33:59.601758 #3450]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:33:59.602056 #3450]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:33:59.605184 #3450]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:34:07.224173 #3450]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:34:08+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:34:08.037494 #3450]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:34:08.090053 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:08+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:34:08.090504 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:08+00:00] INFO: Chef-client pid: 3085I, [2015-03-18T10:34:08.090867 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:14+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:34:14.418497 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:14+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:34:14.421037 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:14+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:34:14.421352 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:14+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:34:14.421714 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:14+00:00] INFO: Running start handlersI, [2015-03-18T10:34:14.422049 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:14+00:00] INFO: Start handlers complete.I, [2015-03-18T10:34:14.422389 #3450]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:34:14.426519 #3450]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:34:14.428601 #3450]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:34:14.429065 #3450]  INFO -- default-ubuntu-1404: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb[0mI, [2015-03-18T10:34:14.429438 #3450]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:34:14.430035 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.430175 #3450]  INFO -- default-ubuntu-1404: 
+[0mNoMethodError[0mI, [2015-03-18T10:34:14.430628 #3450]  INFO -- default-ubuntu-1404: 
+-------------[0mI, [2015-03-18T10:34:14.431071 #3450]  INFO -- default-ubuntu-1404: 
+undefined method `[]' for nil:NilClass[0mI, [2015-03-18T10:34:14.431514 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.431645 #3450]  INFO -- default-ubuntu-1404: 
+[0mCookbook Trace:[0mI, [2015-03-18T10:34:14.432134 #3450]  INFO -- default-ubuntu-1404: 
+---------------[0mI, [2015-03-18T10:34:14.432438 #3450]  INFO -- default-ubuntu-1404: 
+  /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:10:in `class_from_file'[0mI, [2015-03-18T10:34:14.432842 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.432973 #3450]  INFO -- default-ubuntu-1404: 
+[0mRelevant File Content:[0mI, [2015-03-18T10:34:14.433475 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.433733 #3450]  INFO -- default-ubuntu-1404: ----------------------[0m
+I, [2015-03-18T10:34:14.433766 #3450]  INFO -- default-ubuntu-1404: /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:
+I, [2015-03-18T10:34:14.433792 #3450]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:34:14.433837 #3450]  INFO -- default-ubuntu-1404: [0m  3:  
+I, [2015-03-18T10:34:14.434053 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.434085 #3450]  INFO -- default-ubuntu-1404: [0m  4:  default_action :create if defined?(default_action)
+I, [2015-03-18T10:34:14.434109 #3450]  INFO -- default-ubuntu-1404: [0m  5:  
+I, [2015-03-18T10:34:14.434132 #3450]  INFO -- default-ubuntu-1404: [0m  6:  #Name Space
+I, [2015-03-18T10:34:14.434154 #3450]  INFO -- default-ubuntu-1404: [0m  7:  attribute :base_name, :name_attribute => true, :kind_of => String, :required => false, :default => 'default'
+I, [2015-03-18T10:34:14.434177 #3450]  INFO -- default-ubuntu-1404: [0m  8:  
+I, [2015-03-18T10:34:14.434198 #3450]  INFO -- default-ubuntu-1404: [0m  9:  #Example Parameters
+I, [2015-03-18T10:34:14.434221 #3450]  INFO -- default-ubuntu-1404: [0m 10>> attribute :string_param, :kind_of => String, :required => false, :default => node["kickstart_lwrp"]["default"]["string_param"]
+I, [2015-03-18T10:34:14.434275 #3450]  INFO -- default-ubuntu-1404: [0m 11:  attribute :boolean_param, :kind_of => [ TrueClass, FalseClass ], :required => false, :default => node["kickstart_lwrp"]["default"]["boolean_param"]
+I, [2015-03-18T10:34:14.434565 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.434595 #3450]  INFO -- default-ubuntu-1404: [0m 12:  attribute :array_param, :kind_of => Array, :required => false, :default => node["kickstart_lwrp"]["default"]["array_param"]
+I, [2015-03-18T10:34:14.434619 #3450]  INFO -- default-ubuntu-1404: [0m 13:  attribute :hash_param, :kind_of => Hash, :required => false, :default => node["kickstart_lwrp"]["default"]["hash_param"]
+I, [2015-03-18T10:34:14.434642 #3450]  INFO -- default-ubuntu-1404: [0m 14:  
+I, [2015-03-18T10:34:14.434664 #3450]  INFO -- default-ubuntu-1404: [0m 15:  attr_accessor :exists 16:  [0m
+I, [2015-03-18T10:34:14.434686 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.434707 #3450]  INFO -- default-ubuntu-1404: [0m[0m
+I, [2015-03-18T10:34:14.435008 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.435049 #3450]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:34:14.435073 #3450]  INFO -- default-ubuntu-1404: [2015-03-18T17:34:14+00:00] ERROR: Running exception handlers
+I, [2015-03-18T10:34:14.435096 #3450]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:34:14.435742 #3450]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:34:14.435818 #3450]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:34:14+00:00] ERROR: Exception handlers complete
+[2015-03-18T17:34:14+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.outI, [2015-03-18T10:34:14.436129 #3450]  INFO -- default-ubuntu-1404: 
+Chef Client failed. 0 resources updated in 6.399218159 seconds[0mI, [2015-03-18T10:34:14.440161 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:14+00:00] ERROR: undefined method `[]' for nil:NilClassI, [2015-03-18T10:34:14.460564 #3450]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:34:14+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2015-03-18T10:34:14.497391 #3450]  INFO -- default-ubuntu-1404: 
+E, [2015-03-18T10:34:14.526574 #3450] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2015-03-18T10:34:14.526711 #3450] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2015-03-18T10:34:14.526738 #3450] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-03-18T10:34:14.526759 #3450] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:34:14.526810 #3450] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2015-03-18T10:34:14.526830 #3450] ERROR -- default-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-03-18T10:34:14.526850 #3450] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:34:14.526880 #3450] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2015-03-18T10:34:14.526901 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2015-03-18T10:34:14.526920 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2015-03-18T10:34:14.526939 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2015-03-18T10:34:14.526959 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2015-03-18T10:34:14.526978 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2015-03-18T10:34:14.526997 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2015-03-18T10:34:14.527016 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-03-18T10:34:14.527035 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2015-03-18T10:34:14.527054 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2015-03-18T10:34:14.527073 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2015-03-18T10:34:14.527093 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2015-03-18T10:34:14.527120 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2015-03-18T10:34:14.527141 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2015-03-18T10:34:14.527160 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2015-03-18T10:34:14.527179 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2015-03-18T10:34:14.527198 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2015-03-18T10:34:14.527217 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2015-03-18T10:34:14.527237 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2015-03-18T10:34:14.527256 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2015-03-18T10:34:14.527275 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2015-03-18T10:34:14.527317 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2015-03-18T10:34:14.527337 #3450] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2015-03-18T10:34:14.527363 #3450] ERROR -- default-ubuntu-1404: ----------------------
+I, [2015-03-18T10:34:58.580492 #3525]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:34:58.582519 #3525]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:34:58.582838 #3525]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:34:58.586369 #3525]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:35:05.764570 #3525]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:35:06+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:35:06.575467 #3525]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:35:06.643408 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:06+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:35:06.643750 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:06+00:00] INFO: Chef-client pid: 3309I, [2015-03-18T10:35:06.644026 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:13+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:35:13.002529 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:13+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:35:13.005362 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:13+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:35:13.005767 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:13+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:35:13.006271 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:13+00:00] INFO: Running start handlersI, [2015-03-18T10:35:13.006672 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:13+00:00] INFO: Start handlers complete.I, [2015-03-18T10:35:13.007107 #3525]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:35:13.011791 #3525]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:35:13.013966 #3525]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:35:13.014283 #3525]  INFO -- default-ubuntu-1404: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb[0mI, [2015-03-18T10:35:13.014695 #3525]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:35:13.014984 #3525]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:35:13.015182 #3525]  INFO -- default-ubuntu-1404: 
+[0mNoMethodError[0mI, [2015-03-18T10:35:13.015566 #3525]  INFO -- default-ubuntu-1404: 
+-------------[0mI, [2015-03-18T10:35:13.015870 #3525]  INFO -- default-ubuntu-1404: 
+undefined method `[]' for nil:NilClass[0mI, [2015-03-18T10:35:13.016252 #3525]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:35:13.016481 #3525]  INFO -- default-ubuntu-1404: 
+[0mCookbook Trace:[0mI, [2015-03-18T10:35:13.017034 #3525]  INFO -- default-ubuntu-1404: 
+---------------[0mI, [2015-03-18T10:35:13.017283 #3525]  INFO -- default-ubuntu-1404: 
+  /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:10:in `class_from_file'[0mI, [2015-03-18T10:35:13.017754 #3525]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:35:13.017925 #3525]  INFO -- default-ubuntu-1404: 
+[0mRelevant File Content:[0mI, [2015-03-18T10:35:13.018439 #3525]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:35:13.018736 #3525]  INFO -- default-ubuntu-1404: ----------------------[0m
+I, [2015-03-18T10:35:13.019060 #3525]  INFO -- default-ubuntu-1404: /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:
+I, [2015-03-18T10:35:13.019099 #3525]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:35:13.019125 #3525]  INFO -- default-ubuntu-1404: [0m  3:  
+I, [2015-03-18T10:35:13.019149 #3525]  INFO -- default-ubuntu-1404: [0m  4:  default_action :create if defined?(default_action)
+I, [2015-03-18T10:35:13.019194 #3525]  INFO -- default-ubuntu-1404: [0m  5:  
+I, [2015-03-18T10:35:13.019218 #3525]  INFO -- default-ubuntu-1404: [0m  6:  #Name Space
+I, [2015-03-18T10:35:13.019241 #3525]  INFO -- default-ubuntu-1404: [0m  7:  attribute :base_name, :name_attribute => true, :kind_of => String, :required => false, :default => 'default'
+I, [2015-03-18T10:35:13.019263 #3525]  INFO -- default-ubuntu-1404: [0m  8:  
+I, [2015-03-18T10:35:13.019289 #3525]  INFO -- default-ubuntu-1404: [0m  9:  #Example Parameters
+I, [2015-03-18T10:35:13.019572 #3525]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:35:13.019602 #3525]  INFO -- default-ubuntu-1404: [0m 10>> attribute :string_param, :kind_of => String, :required => false, :default => node["kickstart_lwrp"]["default"]["string_param"]
+I, [2015-03-18T10:35:13.019626 #3525]  INFO -- default-ubuntu-1404: [0m 11:  attribute :boolean_param, :kind_of => [ TrueClass, FalseClass ], :required => false, :default => node["kickstart_lwrp"]["default"]["boolean_param"]
+I, [2015-03-18T10:35:13.019649 #3525]  INFO -- default-ubuntu-1404: [0m 12:  attribute :array_param, :kind_of => Array, :required => false, :default => node["kickstart_lwrp"]["default"]["array_param"]
+I, [2015-03-18T10:35:13.019671 #3525]  INFO -- default-ubuntu-1404: [0m 13:  attribute :hash_param, :kind_of => Hash, :required => false, :default => node["kickstart_lwrp"]["default"]["hash_param"]
+I, [2015-03-18T10:35:13.019697 #3525]  INFO -- default-ubuntu-1404: [0m 14:  
+I, [2015-03-18T10:35:13.019722 #3525]  INFO -- default-ubuntu-1404: [0m 15:  attr_accessor :exists 16:  [0m
+I, [2015-03-18T10:35:13.019745 #3525]  INFO -- default-ubuntu-1404: 
+[0m[0mI, [2015-03-18T10:35:13.020075 #3525]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:35:13.020104 #3525]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:35:13.020240 #3525]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:35:13.020268 #3525]  INFO -- default-ubuntu-1404: [2015-03-18T17:35:13+00:00] ERROR: Running exception handlers
+I, [2015-03-18T10:35:13.020291 #3525]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:35:13.021008 #3525]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:35:13.021052 #3525]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:35:13+00:00] ERROR: Exception handlers complete
+I, [2015-03-18T10:35:13.021111 #3525]  INFO -- default-ubuntu-1404: [2015-03-18T17:35:13+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2015-03-18T10:35:13.021290 #3525]  INFO -- default-ubuntu-1404: 
+Chef Client failed. 0 resources updated in 6.44592395 seconds[0mI, [2015-03-18T10:35:13.021623 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:13+00:00] ERROR: undefined method `[]' for nil:NilClassI, [2015-03-18T10:35:13.046042 #3525]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:35:13+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2015-03-18T10:35:13.084295 #3525]  INFO -- default-ubuntu-1404: 
+E, [2015-03-18T10:35:13.113178 #3525] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2015-03-18T10:35:13.113343 #3525] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2015-03-18T10:35:13.113371 #3525] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-03-18T10:35:13.113391 #3525] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:35:13.113412 #3525] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2015-03-18T10:35:13.113431 #3525] ERROR -- default-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-03-18T10:35:13.113450 #3525] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:35:13.113469 #3525] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2015-03-18T10:35:13.113499 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2015-03-18T10:35:13.113521 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2015-03-18T10:35:13.113540 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2015-03-18T10:35:13.113559 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2015-03-18T10:35:13.113578 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2015-03-18T10:35:13.113598 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2015-03-18T10:35:13.113617 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-03-18T10:35:13.113636 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2015-03-18T10:35:13.113656 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2015-03-18T10:35:13.113682 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2015-03-18T10:35:13.113704 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2015-03-18T10:35:13.113724 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2015-03-18T10:35:13.113743 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2015-03-18T10:35:13.113762 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2015-03-18T10:35:13.113781 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2015-03-18T10:35:13.113801 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2015-03-18T10:35:13.113820 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2015-03-18T10:35:13.113839 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2015-03-18T10:35:13.113887 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2015-03-18T10:35:13.113907 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2015-03-18T10:35:13.113926 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2015-03-18T10:35:13.113946 #3525] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2015-03-18T10:35:13.113965 #3525] ERROR -- default-ubuntu-1404: ----------------------
+I, [2015-03-18T10:37:40.270862 #3604]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:37:40.272909 #3604]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:37:40.273323 #3604]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:37:40.276794 #3604]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:37:47.419494 #3604]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:37:48+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:37:48.193825 #3604]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:37:48.242314 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:48+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:37:48.242625 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:48+00:00] INFO: Chef-client pid: 3532I, [2015-03-18T10:37:48.242848 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:37:54.595328 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:37:54.597992 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:37:54.598423 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:37:54.598938 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] INFO: Running start handlersI, [2015-03-18T10:37:54.599272 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] INFO: Start handlers complete.I, [2015-03-18T10:37:54.599790 #3604]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:37:54.604418 #3604]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:37:54.606359 #3604]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:37:54.606913 #3604]  INFO -- default-ubuntu-1404: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb[0mI, [2015-03-18T10:37:54.607225 #3604]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:37:54.607542 #3604]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:37:54.607791 #3604]  INFO -- default-ubuntu-1404: 
+[0mNoMethodError[0mI, [2015-03-18T10:37:54.608339 #3604]  INFO -- default-ubuntu-1404: 
+-------------[0mI, [2015-03-18T10:37:54.608652 #3604]  INFO -- default-ubuntu-1404: 
+undefined method `[]' for nil:NilClass[0mI, [2015-03-18T10:37:54.609013 #3604]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:37:54.609227 #3604]  INFO -- default-ubuntu-1404: 
+[0mCookbook Trace:[0mI, [2015-03-18T10:37:54.609673 #3604]  INFO -- default-ubuntu-1404: 
+---------------[0mI, [2015-03-18T10:37:54.609997 #3604]  INFO -- default-ubuntu-1404: 
+  /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:10:in `class_from_file'[0mI, [2015-03-18T10:37:54.610388 #3604]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:37:54.610423 #3604]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:37:54.610448 #3604]  INFO -- default-ubuntu-1404: [0mRelevant File Content:[0m
+I, [2015-03-18T10:37:54.610471 #3604]  INFO -- default-ubuntu-1404: ----------------------[0m
+I, [2015-03-18T10:37:54.611099 #3604]  INFO -- default-ubuntu-1404: /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:
+I, [2015-03-18T10:37:54.611143 #3604]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:37:54.611169 #3604]  INFO -- default-ubuntu-1404: [0m  3:  
+I, [2015-03-18T10:37:54.611192 #3604]  INFO -- default-ubuntu-1404: [0m  4:  default_action :create if defined?(default_action)
+I, [2015-03-18T10:37:54.611215 #3604]  INFO -- default-ubuntu-1404: [0m  5:  
+I, [2015-03-18T10:37:54.611273 #3604]  INFO -- default-ubuntu-1404: [0m  6:  #Name Space
+I, [2015-03-18T10:37:54.611319 #3604]  INFO -- default-ubuntu-1404: [0m  7:  attribute :base_name, :name_attribute => true, :kind_of => String, :required => false, :default => 'default'
+I, [2015-03-18T10:37:54.611344 #3604]  INFO -- default-ubuntu-1404: [0m  8:  
+I, [2015-03-18T10:37:54.611366 #3604]  INFO -- default-ubuntu-1404: [0m  9:  #Example Parameters
+I, [2015-03-18T10:37:54.611392 #3604]  INFO -- default-ubuntu-1404: [0m 10>> attribute :string_param, :kind_of => String, :required => false, :default => node["kickstart_lwrp"]["default"]["string_param"]
+I, [2015-03-18T10:37:54.611425 #3604]  INFO -- default-ubuntu-1404: [0m 11:  attribute :boolean_param, :kind_of => [ TrueClass, FalseClass ], :required => false, :default => node["kickstart_lwrp"]["default"]["boolean_param"]
+I, [2015-03-18T10:37:54.611449 #3604]  INFO -- default-ubuntu-1404: [0m 12:  attribute :array_param, :kind_of => Array, :required => false, :default => node["kickstart_lwrp"]["default"]["array_param"]
+I, [2015-03-18T10:37:54.611471 #3604]  INFO -- default-ubuntu-1404: [0m 13:  attribute :hash_param, :kind_of => Hash, :required => false, :default => node["kickstart_lwrp"]["default"]["hash_param"]
+I, [2015-03-18T10:37:54.611493 #3604]  INFO -- default-ubuntu-1404: [0m 14:  
+I, [2015-03-18T10:37:54.611514 #3604]  INFO -- default-ubuntu-1404: [0m 15:  attr_accessor :exists 16:  [0m
+I, [2015-03-18T10:37:54.611970 #3604]  INFO -- default-ubuntu-1404: 
+[0m[0mI, [2015-03-18T10:37:54.612193 #3604]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:37:54.612224 #3604]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:37:54.612248 #3604]  INFO -- default-ubuntu-1404: [2015-03-18T17:37:54+00:00] ERROR: Running exception handlers
+I, [2015-03-18T10:37:54.612387 #3604]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:37:54.612470 #3604]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:37:54.612498 #3604]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:37:54+00:00] ERROR: Exception handlers complete
+I, [2015-03-18T10:37:54.612781 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.outI, [2015-03-18T10:37:54.613276 #3604]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:37:54.613310 #3604]  INFO -- default-ubuntu-1404: Chef Client failed. 0 resources updated in 6.420232546 seconds[0m
+I, [2015-03-18T10:37:54.615331 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] ERROR: undefined method `[]' for nil:NilClassI, [2015-03-18T10:37:54.636982 #3604]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:37:54+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2015-03-18T10:37:54.670060 #3604]  INFO -- default-ubuntu-1404: 
+E, [2015-03-18T10:37:54.699503 #3604] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2015-03-18T10:37:54.699632 #3604] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2015-03-18T10:37:54.699659 #3604] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-03-18T10:37:54.699680 #3604] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:37:54.699700 #3604] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2015-03-18T10:37:54.699719 #3604] ERROR -- default-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-03-18T10:37:54.699738 #3604] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:37:54.699758 #3604] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2015-03-18T10:37:54.699777 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2015-03-18T10:37:54.699797 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2015-03-18T10:37:54.699827 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2015-03-18T10:37:54.699848 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2015-03-18T10:37:54.699868 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2015-03-18T10:37:54.699887 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2015-03-18T10:37:54.699906 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-03-18T10:37:54.699925 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2015-03-18T10:37:54.699944 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2015-03-18T10:37:54.699964 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2015-03-18T10:37:54.700009 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2015-03-18T10:37:54.700029 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2015-03-18T10:37:54.700048 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2015-03-18T10:37:54.700068 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2015-03-18T10:37:54.700087 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2015-03-18T10:37:54.700106 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2015-03-18T10:37:54.700125 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2015-03-18T10:37:54.700144 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2015-03-18T10:37:54.700163 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2015-03-18T10:37:54.700182 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2015-03-18T10:37:54.700202 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2015-03-18T10:37:54.700221 #3604] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2015-03-18T10:37:54.700240 #3604] ERROR -- default-ubuntu-1404: ----------------------
+I, [2015-03-18T10:38:47.541240 #3679]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:38:47.543025 #3679]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:38:47.543366 #3679]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:38:47.546674 #3679]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:38:54.887905 #3679]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:38:55+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:38:55.695945 #3679]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:38:55.749979 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:38:55+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:38:55.750519 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:38:55+00:00] INFO: Chef-client pid: 3756I, [2015-03-18T10:38:55.750843 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:39:04+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:39:04.482265 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:39:04+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:39:04.485144 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:39:04+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:39:04.485401 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:39:04+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:39:04.485837 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:39:04+00:00] INFO: Running start handlersI, [2015-03-18T10:39:04.486257 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:39:04+00:00] INFO: Start handlers complete.I, [2015-03-18T10:39:04.486664 #3679]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:39:04.491207 #3679]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:39:04.493448 #3679]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:39:04.493719 #3679]  INFO -- default-ubuntu-1404: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb[0mI, [2015-03-18T10:39:04.494186 #3679]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:39:04.494691 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.494889 #3679]  INFO -- default-ubuntu-1404: 
+[0mNoMethodError[0mI, [2015-03-18T10:39:04.495472 #3679]  INFO -- default-ubuntu-1404: 
+-------------[0mI, [2015-03-18T10:39:04.495736 #3679]  INFO -- default-ubuntu-1404: 
+undefined method `[]' for nil:NilClass[0mI, [2015-03-18T10:39:04.496018 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.496231 #3679]  INFO -- default-ubuntu-1404: 
+[0mCookbook Trace:[0mI, [2015-03-18T10:39:04.496710 #3679]  INFO -- default-ubuntu-1404: 
+---------------[0mI, [2015-03-18T10:39:04.497021 #3679]  INFO -- default-ubuntu-1404: 
+  /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:10:in `class_from_file'[0mI, [2015-03-18T10:39:04.497369 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.497521 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.497684 #3679]  INFO -- default-ubuntu-1404: [0mRelevant File Content:[0m
+I, [2015-03-18T10:39:04.498007 #3679]  INFO -- default-ubuntu-1404: ----------------------[0m
+I, [2015-03-18T10:39:04.498043 #3679]  INFO -- default-ubuntu-1404: /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:
+I, [2015-03-18T10:39:04.498100 #3679]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:39:04.498125 #3679]  INFO -- default-ubuntu-1404: [0m  3:  
+I, [2015-03-18T10:39:04.498148 #3679]  INFO -- default-ubuntu-1404: [0m  4:  default_action :create if defined?(default_action)
+I, [2015-03-18T10:39:04.498171 #3679]  INFO -- default-ubuntu-1404: [0m  5:  
+I, [2015-03-18T10:39:04.498377 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.498407 #3679]  INFO -- default-ubuntu-1404: [0m  6:  #Name Space
+I, [2015-03-18T10:39:04.498431 #3679]  INFO -- default-ubuntu-1404: [0m  7:  attribute :base_name, :name_attribute => true, :kind_of => String, :required => false, :default => 'default'
+I, [2015-03-18T10:39:04.498475 #3679]  INFO -- default-ubuntu-1404: [0m  8:  
+I, [2015-03-18T10:39:04.498502 #3679]  INFO -- default-ubuntu-1404: [0m  9:  #Example Parameters
+I, [2015-03-18T10:39:04.498526 #3679]  INFO -- default-ubuntu-1404: [0m 10>> attribute :string_param, :kind_of => String, :required => false, :default => node["kickstartlwrp"]["default"]["string_param"]
+I, [2015-03-18T10:39:04.498548 #3679]  INFO -- default-ubuntu-1404: [0m 11:  attribute :boolean_param, :kind_of => [ TrueClass, FalseClass ], :required => false, :default => node["kickstartlwrp"]["default"]["boolean_param"]
+I, [2015-03-18T10:39:04.498571 #3679]  INFO -- default-ubuntu-1404: [0m 12:  attribute :array_param, :kind_of => Array, :required => false, :default => node["kickstartlwrp"]["default"]["array_param"]
+I, [2015-03-18T10:39:04.498593 #3679]  INFO -- default-ubuntu-1404: [0m 13:  attribute :hash_param, :kind_of => Hash, :required => false, :default => node["kickstartlwrp"]["default"]["hash_param"]
+I, [2015-03-18T10:39:04.498616 #3679]  INFO -- default-ubuntu-1404: [0m 14:  
+I, [2015-03-18T10:39:04.498939 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.498969 #3679]  INFO -- default-ubuntu-1404: [0m 15:  attr_accessor :exists 16:  [0m
+I, [2015-03-18T10:39:04.498992 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.499014 #3679]  INFO -- default-ubuntu-1404: [0m[0m
+I, [2015-03-18T10:39:04.499183 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.499212 #3679]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:39:04.499235 #3679]  INFO -- default-ubuntu-1404: [2015-03-18T17:39:04+00:00] ERROR: Running exception handlers
+I, [2015-03-18T10:39:04.499772 #3679]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:39:04.499808 #3679]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:39:04.499837 #3679]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:39:04+00:00] ERROR: Exception handlers complete
+[2015-03-18T17:39:04+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.outI, [2015-03-18T10:39:04.500107 #3679]  INFO -- default-ubuntu-1404: 
+Chef Client failed. 0 resources updated in 8.805376143 seconds[0mI, [2015-03-18T10:39:04.500481 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:39:04+00:00] ERROR: undefined method `[]' for nil:NilClassI, [2015-03-18T10:39:04.523837 #3679]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:39:04+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2015-03-18T10:39:04.554268 #3679]  INFO -- default-ubuntu-1404: 
+E, [2015-03-18T10:39:04.583562 #3679] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2015-03-18T10:39:04.583692 #3679] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2015-03-18T10:39:04.583719 #3679] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-03-18T10:39:04.583741 #3679] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:39:04.583761 #3679] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2015-03-18T10:39:04.583780 #3679] ERROR -- default-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-03-18T10:39:04.583799 #3679] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:39:04.583819 #3679] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2015-03-18T10:39:04.583838 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2015-03-18T10:39:04.583857 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2015-03-18T10:39:04.583879 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2015-03-18T10:39:04.583909 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2015-03-18T10:39:04.583958 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2015-03-18T10:39:04.583978 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2015-03-18T10:39:04.583998 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-03-18T10:39:04.584017 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2015-03-18T10:39:04.584037 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2015-03-18T10:39:04.584056 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2015-03-18T10:39:04.584075 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2015-03-18T10:39:04.584094 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2015-03-18T10:39:04.584114 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2015-03-18T10:39:04.584133 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2015-03-18T10:39:04.584153 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2015-03-18T10:39:04.584172 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2015-03-18T10:39:04.584191 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2015-03-18T10:39:04.584211 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2015-03-18T10:39:04.584230 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2015-03-18T10:39:04.584250 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2015-03-18T10:39:04.584269 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2015-03-18T10:39:04.584288 #3679] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2015-03-18T10:39:04.584307 #3679] ERROR -- default-ubuntu-1404: ----------------------
+I, [2015-03-18T10:39:18.469361 #3753]  INFO -- default-ubuntu-1404: -----> Destroying <default-ubuntu-1404>...
+I, [2015-03-18T10:39:21.061950 #3753]  INFO -- default-ubuntu-1404: ==> default: Forcing shutdown of VM...
+I, [2015-03-18T10:39:22.211623 #3753]  INFO -- default-ubuntu-1404: ==> default: Destroying VM and associated drives...
+I, [2015-03-18T10:39:22.473217 #3753]  INFO -- default-ubuntu-1404: Vagrant instance <default-ubuntu-1404> destroyed.
+I, [2015-03-18T10:39:22.475327 #3753]  INFO -- default-ubuntu-1404: Finished destroying <default-ubuntu-1404> (0m4.00s).
+I, [2015-03-18T10:39:26.184770 #3856]  INFO -- default-ubuntu-1404: -----> Creating <default-ubuntu-1404>...
+I, [2015-03-18T10:39:27.837548 #3856]  INFO -- default-ubuntu-1404: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2015-03-18T10:39:28.206630 #3856]  INFO -- default-ubuntu-1404: ==> default: Importing base box 'ubuntu/trusty64'...
+[KProgress: 90%[KI, [2015-03-18T10:39:55.443971 #3856]  INFO -- default-ubuntu-1404: ==> default: Matching MAC address for NAT networking...
+I, [2015-03-18T10:39:55.615898 #3856]  INFO -- default-ubuntu-1404: ==> default: Checking if box 'ubuntu/trusty64' is up to date...
+I, [2015-03-18T10:39:57.255013 #3856]  INFO -- default-ubuntu-1404: ==> default: Setting the name of the VM: default-ubuntu-1404_default_1426700397217_52956
+I, [2015-03-18T10:39:57.366051 #3856]  INFO -- default-ubuntu-1404: ==> default: Clearing any previously set forwarded ports...
+I, [2015-03-18T10:39:57.911901 #3856]  INFO -- default-ubuntu-1404: ==> default: Clearing any previously set network interfaces...
+I, [2015-03-18T10:39:57.955086 #3856]  INFO -- default-ubuntu-1404: ==> default: Preparing network interfaces based on configuration...
+I, [2015-03-18T10:39:57.955423 #3856]  INFO -- default-ubuntu-1404:     default: Adapter 1: nat
+I, [2015-03-18T10:39:58.001829 #3856]  INFO -- default-ubuntu-1404: ==> default: Forwarding ports...
+I, [2015-03-18T10:39:58.069240 #3856]  INFO -- default-ubuntu-1404:     default: 22 => 2222 (adapter 1)
+I, [2015-03-18T10:39:58.197136 #3856]  INFO -- default-ubuntu-1404: ==> default: Running 'pre-boot' VM customizations...
+I, [2015-03-18T10:39:58.286611 #3856]  INFO -- default-ubuntu-1404: ==> default: Booting VM...
+I, [2015-03-18T10:39:58.574614 #3856]  INFO -- default-ubuntu-1404: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2015-03-18T10:39:58.843962 #3856]  INFO -- default-ubuntu-1404:     default: SSH address: 127.0.0.1:2222
+I, [2015-03-18T10:39:58.844093 #3856]  INFO -- default-ubuntu-1404:     default: SSH username: vagrant
+I, [2015-03-18T10:39:58.844340 #3856]  INFO -- default-ubuntu-1404:     default: SSH auth method: private key
+I, [2015-03-18T10:40:13.988239 #3856]  INFO -- default-ubuntu-1404:     default: Warning: Connection timeout. Retrying...
+I, [2015-03-18T10:40:14.134330 #3856]  INFO -- default-ubuntu-1404:     default: Warning: Remote connection disconnect. Retrying...
+I, [2015-03-18T10:40:25.890045 #3856]  INFO -- default-ubuntu-1404:     default: 
+I, [2015-03-18T10:40:25.890123 #3856]  INFO -- default-ubuntu-1404:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2015-03-18T10:40:25.890153 #3856]  INFO -- default-ubuntu-1404:     default: this with a newly generated keypair for better security.
+I, [2015-03-18T10:40:26.128138 #3856]  INFO -- default-ubuntu-1404:     default: 
+I, [2015-03-18T10:40:26.128219 #3856]  INFO -- default-ubuntu-1404:     default: Inserting generated public key within guest...
+I, [2015-03-18T10:40:26.211006 #3856]  INFO -- default-ubuntu-1404:     default: Removing insecure key from the guest if its present...
+I, [2015-03-18T10:40:26.292504 #3856]  INFO -- default-ubuntu-1404:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2015-03-18T10:40:33.697981 #3856]  INFO -- default-ubuntu-1404: ==> default: Machine booted and ready!
+I, [2015-03-18T10:40:33.698382 #3856]  INFO -- default-ubuntu-1404: ==> default: Checking for guest additions in VM...
+I, [2015-03-18T10:40:33.741946 #3856]  INFO -- default-ubuntu-1404: ==> default: Setting hostname...
+==> default: Machine not provisioning because `--no-provision` is specified.I, [2015-03-18T10:40:40.203437 #3856]  INFO -- default-ubuntu-1404: Vagrant instance <default-ubuntu-1404> created.
+I, [2015-03-18T10:40:40.205132 #3856]  INFO -- default-ubuntu-1404: Finished creating <default-ubuntu-1404> (1m14.02s).
+I, [2015-03-18T10:40:40.206613 #3856]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:40:40.207522 #3856]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:40:40.207896 #3856]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:40:40.211705 #3856]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+-----> Installing Chef Omnibus (true)I, [2015-03-18T10:40:47.344662 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:40:47.344725 #3856]  INFO -- default-ubuntu-1404: downloading https://www.getchef.com/chef/install.sh
+I, [2015-03-18T10:40:47.344759 #3856]  INFO -- default-ubuntu-1404:   to file /tmp/install.sh
+I, [2015-03-18T10:40:47.344790 #3856]  INFO -- default-ubuntu-1404: trying wget...
+I, [2015-03-18T10:40:47.345019 #3856]  INFO -- default-ubuntu-1404: 
+Downloading Chef  for ubuntu...I, [2015-03-18T10:40:54.032550 #3856]  INFO -- default-ubuntu-1404: 
+downloading https://www.chef.io/chef/metadata?v=&prerelease=false&nightlies=false&p=ubuntu&pv=14.04&m=x86_64I, [2015-03-18T10:40:54.032924 #3856]  INFO -- default-ubuntu-1404: 
+  to file /tmp/install.sh.2089/metadata.txtI, [2015-03-18T10:40:54.033332 #3856]  INFO -- default-ubuntu-1404: 
+trying wget...I, [2015-03-18T10:40:54.033643 #3856]  INFO -- default-ubuntu-1404: 
+url	https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/13.04/x86_64/chef_12.1.1-1_amd64.debI, [2015-03-18T10:40:59.747435 #3856]  INFO -- default-ubuntu-1404: 
+md5	028e2335ff309fa4555ed0dfd486162fI, [2015-03-18T10:40:59.748774 #3856]  INFO -- default-ubuntu-1404: 
+sha256	108bc8a1786b1a4cfbb42dcea0e4990221340aae669878df3f67fffe1fb1ad24I, [2015-03-18T10:40:59.749470 #3856]  INFO -- default-ubuntu-1404: 
+downloaded metadata file looks valid...I, [2015-03-18T10:40:59.753746 #3856]  INFO -- default-ubuntu-1404: 
+downloading https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/13.04/x86_64/chef_12.1.1-1_amd64.debI, [2015-03-18T10:40:59.761674 #3856]  INFO -- default-ubuntu-1404: 
+  to file /tmp/install.sh.2089/chef_12.1.1-1_amd64.debI, [2015-03-18T10:40:59.762096 #3856]  INFO -- default-ubuntu-1404: 
+trying wget...I, [2015-03-18T10:40:59.762608 #3856]  INFO -- default-ubuntu-1404: 
+Comparing checksum with sha256sum...I, [2015-03-18T10:41:27.193648 #3856]  INFO -- default-ubuntu-1404: 
+Installing Chef I, [2015-03-18T10:41:27.435503 #3856]  INFO -- default-ubuntu-1404: 
+installing with dpkg...I, [2015-03-18T10:41:27.436643 #3856]  INFO -- default-ubuntu-1404: 
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 60919 files and directories currently installed.)I, [2015-03-18T10:41:27.627546 #3856]  INFO -- default-ubuntu-1404: 
+Preparing to unpack .../chef_12.1.1-1_amd64.deb ...I, [2015-03-18T10:41:27.629553 #3856]  INFO -- default-ubuntu-1404: 
+ * Stopping chef-client chef-client       [80G [74G[ OK ]I, [2015-03-18T10:41:27.690814 #3856]  INFO -- default-ubuntu-1404: 
+Unpacking chef (12.1.1-1) over (11.8.2-2) ...I, [2015-03-18T10:41:27.697697 #3856]  INFO -- default-ubuntu-1404: 
+dpkg: warning: unable to delete old directory '/var/log/chef': Directory not emptyI, [2015-03-18T10:41:33.874968 #3856]  INFO -- default-ubuntu-1404: 
+dpkg: warning: unable to delete old directory '/etc/chef': Directory not emptyI, [2015-03-18T10:41:33.876428 #3856]  INFO -- default-ubuntu-1404: 
+Setting up chef (12.1.1-1) ...I, [2015-03-18T10:41:33.916846 #3856]  INFO -- default-ubuntu-1404: 
+Thank you for installing Chef!I, [2015-03-18T10:41:34.028654 #3856]  INFO -- default-ubuntu-1404: 
+Processing triggers for man-db (2.6.7.1-1) ...I, [2015-03-18T10:41:34.035427 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:41:34.571919 #3856]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:41:35+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:41:35.385286 #3856]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:41:35.461151 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:35+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:41:35.461513 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:35+00:00] INFO: Chef-client pid: 2640I, [2015-03-18T10:41:35.461778 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:41+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:41:41.793658 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:41+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:41:41.796545 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:41+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:41:41.796825 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:41+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:41:41.797044 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:41+00:00] INFO: Running start handlersI, [2015-03-18T10:41:41.797457 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:41+00:00] INFO: Start handlers complete.I, [2015-03-18T10:41:41.797827 #3856]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:41:41.802377 #3856]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:41:41.804092 #3856]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:41:41.804458 #3856]  INFO -- default-ubuntu-1404: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb[0mI, [2015-03-18T10:41:41.804763 #3856]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:41:41.805109 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:41:41.805263 #3856]  INFO -- default-ubuntu-1404: 
+[0mNoMethodError[0mI, [2015-03-18T10:41:41.805908 #3856]  INFO -- default-ubuntu-1404: 
+-------------[0mI, [2015-03-18T10:41:41.806322 #3856]  INFO -- default-ubuntu-1404: 
+undefined method `[]' for nil:NilClass[0mI, [2015-03-18T10:41:41.806754 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:41:41.806924 #3856]  INFO -- default-ubuntu-1404: 
+[0mCookbook Trace:[0mI, [2015-03-18T10:41:41.807413 #3856]  INFO -- default-ubuntu-1404: 
+---------------[0mI, [2015-03-18T10:41:41.807792 #3856]  INFO -- default-ubuntu-1404: 
+  /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:10:in `class_from_file'[0mI, [2015-03-18T10:41:41.808043 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:41:41.808195 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:41:41.808491 #3856]  INFO -- default-ubuntu-1404: [0mRelevant File Content:[0m
+I, [2015-03-18T10:41:41.808526 #3856]  INFO -- default-ubuntu-1404: ----------------------[0m
+I, [2015-03-18T10:41:41.808722 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:41:41.808755 #3856]  INFO -- default-ubuntu-1404: /tmp/kitchen/cookbooks/kickstart-lwrp/resources/default.rb:
+I, [2015-03-18T10:41:41.808780 #3856]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:41:41.808803 #3856]  INFO -- default-ubuntu-1404: [0m  3:  
+I, [2015-03-18T10:41:41.808825 #3856]  INFO -- default-ubuntu-1404: [0m  4:  default_action :create if defined?(default_action)
+I, [2015-03-18T10:41:41.808847 #3856]  INFO -- default-ubuntu-1404: [0m  5:  
+I, [2015-03-18T10:41:41.808869 #3856]  INFO -- default-ubuntu-1404: [0m  6:  #Name Space
+I, [2015-03-18T10:41:41.809121 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:41:41.809151 #3856]  INFO -- default-ubuntu-1404: [0m  7:  attribute :base_name, :name_attribute => true, :kind_of => String, :required => false, :default => 'default'
+I, [2015-03-18T10:41:41.809198 #3856]  INFO -- default-ubuntu-1404: [0m  8:  
+I, [2015-03-18T10:41:41.809223 #3856]  INFO -- default-ubuntu-1404: [0m  9:  #Example Parameters
+I, [2015-03-18T10:41:41.809245 #3856]  INFO -- default-ubuntu-1404: [0m 10>> attribute :string_param, :kind_of => String, :required => false, :default => node["kickstartlwrp"]["default"]["string_param"]
+I, [2015-03-18T10:41:41.809282 #3856]  INFO -- default-ubuntu-1404: [0m 11:  attribute :boolean_param, :kind_of => [ TrueClass, FalseClass ], :required => false, :default => node["kickstartlwrp"]["default"]["boolean_param"]
+I, [2015-03-18T10:41:41.809310 #3856]  INFO -- default-ubuntu-1404: [0m 12:  attribute :array_param, :kind_of => Array, :required => false, :default => node["kickstartlwrp"]["default"]["array_param"]
+I, [2015-03-18T10:41:41.809333 #3856]  INFO -- default-ubuntu-1404: [0m 13:  attribute :hash_param, :kind_of => Hash, :required => false, :default => node["kickstartlwrp"]["default"]["hash_param"]
+I, [2015-03-18T10:41:41.809355 #3856]  INFO -- default-ubuntu-1404: [0m 14:  
+I, [2015-03-18T10:41:41.809381 #3856]  INFO -- default-ubuntu-1404: [0m 15:  attr_accessor :exists 16:  [0m
+I, [2015-03-18T10:41:41.809408 #3856]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:41:41.809752 #3856]  INFO -- default-ubuntu-1404: [0m[0m
+I, [2015-03-18T10:41:41.810168 #3856]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:41:41.810204 #3856]  INFO -- default-ubuntu-1404: [2015-03-18T17:41:41+00:00] ERROR: Running exception handlers
+I, [2015-03-18T10:41:41.810230 #3856]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:41:41.810254 #3856]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:41:41+00:00] ERROR: Exception handlers complete
+[2015-03-18T17:41:41+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.outI, [2015-03-18T10:41:41.810626 #3856]  INFO -- default-ubuntu-1404: 
+Chef Client failed. 0 resources updated in 6.426188391 seconds[0mI, [2015-03-18T10:41:41.814542 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:41+00:00] ERROR: undefined method `[]' for nil:NilClassI, [2015-03-18T10:41:41.833796 #3856]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:41:41+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2015-03-18T10:41:41.876739 #3856]  INFO -- default-ubuntu-1404: 
+E, [2015-03-18T10:41:41.928876 #3856] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2015-03-18T10:41:41.929164 #3856] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2015-03-18T10:41:41.929206 #3856] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-03-18T10:41:41.929235 #3856] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:41:41.929264 #3856] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2015-03-18T10:41:41.929292 #3856] ERROR -- default-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-03-18T10:41:41.929319 #3856] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:41:41.929347 #3856] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2015-03-18T10:41:41.929374 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2015-03-18T10:41:41.929402 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2015-03-18T10:41:41.929430 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2015-03-18T10:41:41.929458 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2015-03-18T10:41:41.929502 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2015-03-18T10:41:41.929533 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2015-03-18T10:41:41.929561 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-03-18T10:41:41.929588 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2015-03-18T10:41:41.929616 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2015-03-18T10:41:41.929645 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2015-03-18T10:41:41.929672 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2015-03-18T10:41:41.929700 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2015-03-18T10:41:41.929727 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2015-03-18T10:41:41.929754 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2015-03-18T10:41:41.929836 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2015-03-18T10:41:41.929865 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2015-03-18T10:41:41.929892 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2015-03-18T10:41:41.929920 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2015-03-18T10:41:41.929947 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2015-03-18T10:41:41.929974 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2015-03-18T10:41:41.930001 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2015-03-18T10:41:41.930029 #3856] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2015-03-18T10:41:41.930056 #3856] ERROR -- default-ubuntu-1404: ----------------------
+I, [2015-03-18T10:42:12.695837 #4092]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:42:12.698847 #4092]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:42:12.699277 #4092]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:42:12.703446 #4092]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:42:20.210895 #4092]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:42:21+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:42:21.038280 #4092]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:42:21.090847 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:21+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:42:21.091193 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:21+00:00] INFO: Chef-client pid: 2863I, [2015-03-18T10:42:21.091510 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:42:27.438731 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:42:27.441378 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:42:27.441781 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:42:27.442113 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] INFO: Running start handlersI, [2015-03-18T10:42:27.442533 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] INFO: Start handlers complete.I, [2015-03-18T10:42:27.442858 #4092]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:42:27.447209 #4092]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:42:27.449836 #4092]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:42:27.450230 #4092]  INFO -- default-ubuntu-1404: 
+[31mRecipe Compile Error in /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb[0mI, [2015-03-18T10:42:27.450597 #4092]  INFO -- default-ubuntu-1404: 
+================================================================================[0mI, [2015-03-18T10:42:27.450966 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.451146 #4092]  INFO -- default-ubuntu-1404: 
+[0mSyntaxError[0mI, [2015-03-18T10:42:27.451766 #4092]  INFO -- default-ubuntu-1404: 
+-----------[0mI, [2015-03-18T10:42:27.452079 #4092]  INFO -- default-ubuntu-1404: 
+/tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:15: syntax error, unexpected =>, expecting ')'I, [2015-03-18T10:42:27.452619 #4092]  INFO -- default-ubuntu-1404: 
+[0m    'a' => '2',I, [2015-03-18T10:42:27.453143 #4092]  INFO -- default-ubuntu-1404: 
+[0m          ^I, [2015-03-18T10:42:27.453701 #4092]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:42:27.454061 #4092]  INFO -- default-ubuntu-1404: /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:15: syntax error, unexpected ',', expecting keyword_end
+I, [2015-03-18T10:42:27.454107 #4092]  INFO -- default-ubuntu-1404: [0m/tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:16: syntax error, unexpected =>, expecting keyword_end
+I, [2015-03-18T10:42:27.454136 #4092]  INFO -- default-ubuntu-1404: [0m    'b' => '3'
+I, [2015-03-18T10:42:27.454160 #4092]  INFO -- default-ubuntu-1404: [0m          ^
+I, [2015-03-18T10:42:27.454404 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.454444 #4092]  INFO -- default-ubuntu-1404: [0m/tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:17: syntax error, unexpected ')', expecting keyword_end[0m
+I, [2015-03-18T10:42:27.454474 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.454497 #4092]  INFO -- default-ubuntu-1404: [0mCookbook Trace:[0m
+I, [2015-03-18T10:42:27.454519 #4092]  INFO -- default-ubuntu-1404: ---------------[0m
+I, [2015-03-18T10:42:27.454540 #4092]  INFO -- default-ubuntu-1404:   /opt/chef/embedded/apps/chef/lib/chef/mixin/from_file.rb:30:in `instance_eval'
+I, [2015-03-18T10:42:27.454761 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.454799 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/mixin/from_file.rb:30:in `from_file'
+I, [2015-03-18T10:42:27.454823 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/cookbook_version.rb:218:in `load_recipe'
+I, [2015-03-18T10:42:27.454846 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/run_context.rb:173:in `load_recipe'
+I, [2015-03-18T10:42:27.454886 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/run_context/cookbook_compiler.rb:140:in `block in compile_recipes'
+I, [2015-03-18T10:42:27.455131 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.455161 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/run_context/cookbook_compiler.rb:138:in `each'
+I, [2015-03-18T10:42:27.455184 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/run_context/cookbook_compiler.rb:138:in `compile_recipes'
+I, [2015-03-18T10:42:27.455207 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/run_context/cookbook_compiler.rb:75:in `compile'
+I, [2015-03-18T10:42:27.455229 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/run_context.rb:96:in `load'
+I, [2015-03-18T10:42:27.455252 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/policy_builder/expand_node_object.rb:73:in `setup_run_context'
+I, [2015-03-18T10:42:27.455274 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/client.rb:249:in `setup_run_context'
+I, [2015-03-18T10:42:27.455297 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/client.rb:445:in `run'
+I, [2015-03-18T10:42:27.455319 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application.rb:271:in `block in fork_chef_client'
+I, [2015-03-18T10:42:27.455608 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.455637 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application.rb:259:in `fork'
+I, [2015-03-18T10:42:27.455661 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application.rb:259:in `fork_chef_client'
+I, [2015-03-18T10:42:27.455683 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application.rb:225:in `block in run_chef_client'
+I, [2015-03-18T10:42:27.455705 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/local_mode.rb:38:in `with_server_connectivity'
+I, [2015-03-18T10:42:27.455727 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application.rb:213:in `run_chef_client'
+I, [2015-03-18T10:42:27.455749 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application/solo.rb:275:in `block in interval_run_chef_client'
+I, [2015-03-18T10:42:27.455771 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application/solo.rb:264:in `loop'
+I, [2015-03-18T10:42:27.455793 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application/solo.rb:264:in `interval_run_chef_client'
+I, [2015-03-18T10:42:27.456078 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.456106 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application/solo.rb:242:in `run_application'
+I, [2015-03-18T10:42:27.456130 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/lib/chef/application.rb:60:in `run'
+I, [2015-03-18T10:42:27.456153 #4092]  INFO -- default-ubuntu-1404: [0m  /opt/chef/embedded/apps/chef/bin/chef-solo:25:in `<top (required)>'
+I, [2015-03-18T10:42:27.456175 #4092]  INFO -- default-ubuntu-1404: [0m  /usr/bin/chef-solo:52:in `load'
+I, [2015-03-18T10:42:27.456196 #4092]  INFO -- default-ubuntu-1404: [0m  /usr/bin/chef-solo:52:in `<main>'[0m
+I, [2015-03-18T10:42:27.456218 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.456240 #4092]  INFO -- default-ubuntu-1404: [0mRelevant File Content:[0m
+I, [2015-03-18T10:42:27.456477 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.456511 #4092]  INFO -- default-ubuntu-1404: ----------------------[0m
+I, [2015-03-18T10:42:27.456535 #4092]  INFO -- default-ubuntu-1404: /opt/chef/embedded/apps/chef/lib/chef/mixin/from_file.rb:
+I, [2015-03-18T10:42:27.456570 #4092]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:42:27.456594 #4092]  INFO -- default-ubuntu-1404: [0m 23:  
+I, [2015-03-18T10:42:27.456616 #4092]  INFO -- default-ubuntu-1404: [0m 24:        # Loads a given ruby file, and runs instance_eval against it in the context of the current
+I, [2015-03-18T10:42:27.456639 #4092]  INFO -- default-ubuntu-1404: [0m 25:        # object.
+I, [2015-03-18T10:42:27.456661 #4092]  INFO -- default-ubuntu-1404: [0m 26:        #
+I, [2015-03-18T10:42:27.456683 #4092]  INFO -- default-ubuntu-1404: [0m 27:        # Raises an IOError if the file cannot be found, or is not readable.
+I, [2015-03-18T10:42:27.456705 #4092]  INFO -- default-ubuntu-1404: [0m 28:        def from_file(filename)
+I, [2015-03-18T10:42:27.456727 #4092]  INFO -- default-ubuntu-1404: [0m 29:          if File.exists?(filename) && File.readable?(filename)
+I, [2015-03-18T10:42:27.457046 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.457077 #4092]  INFO -- default-ubuntu-1404: [0m 30>>           self.instance_eval(IO.read(filename), filename, 1)
+I, [2015-03-18T10:42:27.457101 #4092]  INFO -- default-ubuntu-1404: [0m 31:          else
+I, [2015-03-18T10:42:27.457124 #4092]  INFO -- default-ubuntu-1404: [0m 32:            raise IOError, "Cannot open or read #{filename}!"
+I, [2015-03-18T10:42:27.457146 #4092]  INFO -- default-ubuntu-1404: [0m 33:          end
+I, [2015-03-18T10:42:27.457168 #4092]  INFO -- default-ubuntu-1404: [0m 34:        end
+I, [2015-03-18T10:42:27.457190 #4092]  INFO -- default-ubuntu-1404: [0m 35:  
+I, [2015-03-18T10:42:27.457213 #4092]  INFO -- default-ubuntu-1404: [0m 36:        # Loads a given ruby file, and runs class_eval against it in the context of the current
+I, [2015-03-18T10:42:27.457235 #4092]  INFO -- default-ubuntu-1404: [0m 37:        # object.
+I, [2015-03-18T10:42:27.457257 #4092]  INFO -- default-ubuntu-1404: [0m 38:        #
+I, [2015-03-18T10:42:27.457280 #4092]  INFO -- default-ubuntu-1404: [0m 39:        # Raises an IOError if the file cannot be found, or is not readable.
+I, [2015-03-18T10:42:27.457302 #4092]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:42:27.457324 #4092]  INFO -- default-ubuntu-1404: [0m[0m
+I, [2015-03-18T10:42:27.457641 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.457669 #4092]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:42:27.457693 #4092]  INFO -- default-ubuntu-1404: [2015-03-18T17:42:27+00:00] ERROR: Running exception handlers
+I, [2015-03-18T10:42:27.457872 #4092]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:42:27.457901 #4092]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:42:27.457937 #4092]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:42:27+00:00] ERROR: Exception handlers complete
+I, [2015-03-18T10:42:27.458404 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.outI, [2015-03-18T10:42:27.458664 #4092]  INFO -- default-ubuntu-1404: 
+Chef Client failed. 0 resources updated in 6.420517668 seconds[0mI, [2015-03-18T10:42:27.458942 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] ERROR: /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:15: syntax error, unexpected =>, expecting ')'I, [2015-03-18T10:42:27.484917 #4092]  INFO -- default-ubuntu-1404: 
+    'a' => '2',I, [2015-03-18T10:42:27.485309 #4092]  INFO -- default-ubuntu-1404: 
+          ^I, [2015-03-18T10:42:27.485719 #4092]  INFO -- default-ubuntu-1404: 
+/tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:15: syntax error, unexpected ',', expecting keyword_endI, [2015-03-18T10:42:27.486084 #4092]  INFO -- default-ubuntu-1404: 
+/tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:16: syntax error, unexpected =>, expecting keyword_endI, [2015-03-18T10:42:27.486459 #4092]  INFO -- default-ubuntu-1404: 
+    'b' => '3'I, [2015-03-18T10:42:27.486809 #4092]  INFO -- default-ubuntu-1404: 
+          ^I, [2015-03-18T10:42:27.487215 #4092]  INFO -- default-ubuntu-1404: 
+/tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:17: syntax error, unexpected ')', expecting keyword_endI, [2015-03-18T10:42:27.487419 #4092]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:42:27+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)I, [2015-03-18T10:42:27.524002 #4092]  INFO -- default-ubuntu-1404: 
+E, [2015-03-18T10:42:27.552409 #4092] ERROR -- default-ubuntu-1404: Converge failed on instance <default-ubuntu-1404>.
+E, [2015-03-18T10:42:27.552538 #4092] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2015-03-18T10:42:27.552565 #4092] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2015-03-18T10:42:27.552587 #4092] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:42:27.552607 #4092] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2015-03-18T10:42:27.552669 #4092] ERROR -- default-ubuntu-1404: Class: Kitchen::SSHFailed
+E, [2015-03-18T10:42:27.552689 #4092] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sudo -E chef-solo --config /tmp/kitchen/solo.rb --json-attributes /tmp/kitchen/dna.json  --log_level info]
+E, [2015-03-18T10:42:27.552709 #4092] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2015-03-18T10:42:27.552728 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:112:in `rescue in run_remote'
+E, [2015-03-18T10:42:27.552748 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:108:in `run_remote'
+E, [2015-03-18T10:42:27.552767 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:48:in `block in converge'
+E, [2015-03-18T10:42:27.552787 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2015-03-18T10:42:27.552806 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2015-03-18T10:42:27.552826 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2015-03-18T10:42:27.552846 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2015-03-18T10:42:27.552865 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2015-03-18T10:42:27.552885 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2015-03-18T10:42:27.552904 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2015-03-18T10:42:27.552924 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2015-03-18T10:42:27.552943 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2015-03-18T10:42:27.552963 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2015-03-18T10:42:27.552982 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2015-03-18T10:42:27.553048 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2015-03-18T10:42:27.553079 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2015-03-18T10:42:27.553101 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2015-03-18T10:42:27.553121 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2015-03-18T10:42:27.553141 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2015-03-18T10:42:27.553160 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:119:in `converge'
+E, [2015-03-18T10:42:27.553180 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2015-03-18T10:42:27.553200 #4092] ERROR -- default-ubuntu-1404: /Users/stajkowski/.rvm/gems/ruby-2.1.1/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2015-03-18T10:42:27.553220 #4092] ERROR -- default-ubuntu-1404: ----------------------
+I, [2015-03-18T10:43:17.915742 #4168]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:43:17.917564 #4168]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:43:17.917942 #4168]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:43:17.921571 #4168]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:43:25.295774 #4168]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:43:26+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:43:26.154569 #4168]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:43:26.207823 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:26+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:43:26.208324 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:26+00:00] INFO: Chef-client pid: 3086I, [2015-03-18T10:43:26.208778 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:32+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:43:32.564471 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:32+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:43:32.567693 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:32+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:43:32.568071 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:32+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:43:32.568353 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:32+00:00] INFO: Running start handlersI, [2015-03-18T10:43:32.568750 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:32+00:00] INFO: Start handlers complete.I, [2015-03-18T10:43:32.569182 #4168]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:43:32.573542 #4168]  INFO -- default-ubuntu-1404: 
+Converging 1 resources[0mI, [2015-03-18T10:43:32.576049 #4168]  INFO -- default-ubuntu-1404: 
+Recipe: kickstart-lwrp::default[0mI, [2015-03-18T10:43:32.576558 #4168]  INFO -- default-ubuntu-1404: 
+  * kickstart-lwrp[example_name] action create[2015-03-18T17:43:32+00:00] INFO: Processing kickstart-lwrp[example_name] action create (kickstart-lwrp::default line 10)I, [2015-03-18T10:43:32.577829 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.580917 #4168]  INFO -- default-ubuntu-1404: 
+    [32m- Creating.[0mI, [2015-03-18T10:43:32.581905 #4168]  INFO -- default-ubuntu-1404: 
+    * template[/var/tmpfile] action create[2015-03-18T17:43:32+00:00] INFO: Processing template[/var/tmpfile] action create (/tmp/kitchen/cookbooks/kickstart-lwrp/providers/default.rb line 66)I, [2015-03-18T10:43:32.582930 #4168]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:43:32+00:00] INFO: template[/var/tmpfile] created file /var/tmpfileI, [2015-03-18T10:43:32.587883 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.588196 #4168]  INFO -- default-ubuntu-1404: 
+      [32m- create new file /var/tmpfile[0m[2015-03-18T17:43:32+00:00] INFO: template[/var/tmpfile] updated file contents /var/tmpfileI, [2015-03-18T10:43:32.590456 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.590819 #4168]  INFO -- default-ubuntu-1404: 
+      [32m- update content in file /var/tmpfile from none to ae87b5[0mI, [2015-03-18T10:43:32.591455 #4168]  INFO -- default-ubuntu-1404: 
+      [37m--- /var/tmpfile	2015-03-18 17:43:32.679990022 +0000[0mI, [2015-03-18T10:43:32.592323 #4168]  INFO -- default-ubuntu-1404: 
+      [37m+++ /tmp/chef-rendered-template20150318-3086-1q0yjnr	2015-03-18 17:43:32.679990022 +0000[0mI, [2015-03-18T10:43:32.593307 #4168]  INFO -- default-ubuntu-1404: 
+      [37m@@ -1 +1,6 @@[0mI, [2015-03-18T10:43:32.593787 #4168]  INFO -- default-ubuntu-1404: 
+      [37m+string_param = thsi is a string[0mI, [2015-03-18T10:43:32.594446 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.594796 #4168]  INFO -- default-ubuntu-1404:       [37m+boolean_param = true[0m
+I, [2015-03-18T10:43:32.594831 #4168]  INFO -- default-ubuntu-1404:       [37m+array_param = ["a", "b", "c"][0m
+I, [2015-03-18T10:43:32.594880 #4168]  INFO -- default-ubuntu-1404:       [37m+param['a'] = 2[0m
+I, [2015-03-18T10:43:32.594905 #4168]  INFO -- default-ubuntu-1404:       [37m+param['b'] = 3[0m
+I, [2015-03-18T10:43:32.595648 #4168]  INFO -- default-ubuntu-1404: 
+[0m  I, [2015-03-18T10:43:32.596683 #4168]  INFO -- default-ubuntu-1404: 
+[0m[2015-03-18T17:43:32+00:00] INFO: Chef Run complete in 0.028372961 secondsI, [2015-03-18T10:43:32.597247 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.597285 #4168]  INFO -- default-ubuntu-1404: [2015-03-18T17:43:32+00:00] INFO: Skipping removal of unused files from the cache
+I, [2015-03-18T10:43:32.597311 #4168]  INFO -- default-ubuntu-1404: [0m
+I, [2015-03-18T10:43:32.597835 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.597885 #4168]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T10:43:32.597911 #4168]  INFO -- default-ubuntu-1404: [2015-03-18T17:43:32+00:00] INFO: Running report handlers
+I, [2015-03-18T10:43:32.598156 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.598198 #4168]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T10:43:32.598223 #4168]  INFO -- default-ubuntu-1404: [0m[2015-03-18T17:43:32+00:00] INFO: Report handlers complete
+I, [2015-03-18T10:43:32.598447 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.598483 #4168]  INFO -- default-ubuntu-1404: Chef Client finished, 2/2 resources updated in 6.444319237 seconds[0m
+I, [2015-03-18T10:43:32.601827 #4168]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:43:32.709316 #4168]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m14.79s).
+I, [2015-03-18T10:46:01.297641 #4664]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:46:01.299497 #4664]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:46:01.299871 #4664]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:46:01.303475 #4664]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:46:08.708418 #4664]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:46:09+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:46:09.475196 #4664]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:46:09.524816 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:09+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:46:09.525188 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:09+00:00] INFO: Chef-client pid: 3402I, [2015-03-18T10:46:09.525623 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:46:15.868361 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:46:15.871459 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:46:15.871736 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:46:15.872178 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Running start handlersI, [2015-03-18T10:46:15.872546 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Start handlers complete.I, [2015-03-18T10:46:15.872942 #4664]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:46:15.877502 #4664]  INFO -- default-ubuntu-1404: 
+Converging 1 resources[0mI, [2015-03-18T10:46:15.880071 #4664]  INFO -- default-ubuntu-1404: 
+Recipe: kickstart-lwrp::default[0mI, [2015-03-18T10:46:15.880625 #4664]  INFO -- default-ubuntu-1404: 
+  * kickstart-lwrp[example_name] action create[2015-03-18T17:46:15+00:00] INFO: Processing kickstart-lwrp[example_name] action create (kickstart-lwrp::default line 10)I, [2015-03-18T10:46:15.881808 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] ERROR: Our file already exists. Not Creating.I, [2015-03-18T10:46:15.884328 #4664]  INFO -- default-ubuntu-1404: 
+ (up to date)I, [2015-03-18T10:46:15.884711 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Chef Run complete in 0.013379996 secondsI, [2015-03-18T10:46:15.885114 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Skipping removal of unused files from the cacheI, [2015-03-18T10:46:15.885505 #4664]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:46:15.885954 #4664]  INFO -- default-ubuntu-1404: 
+Running handlers:[0mI, [2015-03-18T10:46:15.886340 #4664]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:15+00:00] INFO: Running report handlersI, [2015-03-18T10:46:15.886710 #4664]  INFO -- default-ubuntu-1404: 
+Running handlers completeI, [2015-03-18T10:46:15.887051 #4664]  INFO -- default-ubuntu-1404: 
+[0m[2015-03-18T17:46:15+00:00] INFO: Report handlers completeI, [2015-03-18T10:46:15.887498 #4664]  INFO -- default-ubuntu-1404: 
+Chef Client finished, 0/1 resources updated in 6.413303245 seconds[0mI, [2015-03-18T10:46:15.887978 #4664]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:46:15.980764 #4664]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m14.68s).
+I, [2015-03-18T10:46:49.990099 #4738]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:46:49.991946 #4738]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:46:49.992338 #4738]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:46:49.995938 #4738]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:46:57.379172 #4738]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:46:58+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:46:58.155375 #4738]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:46:58.205162 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:58+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:46:58.205498 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:46:58+00:00] INFO: Chef-client pid: 3630I, [2015-03-18T10:46:58.206013 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:47:04.528018 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:47:04.530975 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:47:04.531292 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:47:04.531716 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Running start handlersI, [2015-03-18T10:47:04.532287 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Start handlers complete.I, [2015-03-18T10:47:04.532773 #4738]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:47:04.537402 #4738]  INFO -- default-ubuntu-1404: 
+Converging 1 resources[0mI, [2015-03-18T10:47:04.539857 #4738]  INFO -- default-ubuntu-1404: 
+Recipe: kickstart-lwrp::default[0mI, [2015-03-18T10:47:04.540265 #4738]  INFO -- default-ubuntu-1404: 
+  * kickstart-lwrp[example_name] action create[2015-03-18T17:47:04+00:00] INFO: Processing kickstart-lwrp[example_name] action create (kickstart-lwrp::default line 10)I, [2015-03-18T10:47:04.541136 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] ERROR: Our file already exists. Not Creating.I, [2015-03-18T10:47:04.543121 #4738]  INFO -- default-ubuntu-1404: 
+ (up to date)I, [2015-03-18T10:47:04.543496 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Chef Run complete in 0.011615608 secondsI, [2015-03-18T10:47:04.543880 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Skipping removal of unused files from the cacheI, [2015-03-18T10:47:04.544259 #4738]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:47:04.544639 #4738]  INFO -- default-ubuntu-1404: 
+Running handlers:[0mI, [2015-03-18T10:47:04.544988 #4738]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:47:04+00:00] INFO: Running report handlersI, [2015-03-18T10:47:04.545288 #4738]  INFO -- default-ubuntu-1404: 
+Running handlers completeI, [2015-03-18T10:47:04.545608 #4738]  INFO -- default-ubuntu-1404: 
+[0m[2015-03-18T17:47:04+00:00] INFO: Report handlers completeI, [2015-03-18T10:47:04.546035 #4738]  INFO -- default-ubuntu-1404: 
+Chef Client finished, 0/1 resources updated in 6.391677127 seconds[0mI, [2015-03-18T10:47:04.546409 #4738]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:47:04.627414 #4738]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m14.64s).
+I, [2015-03-18T10:55:00.199636 #4830]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:55:00.201583 #4830]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:55:00.201915 #4830]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:55:00.205669 #4830]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:55:07.670737 #4830]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:55:08+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:55:08.480658 #4830]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:55:08.532944 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:08+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:55:08.533487 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:08+00:00] INFO: Chef-client pid: 3858I, [2015-03-18T10:55:08.533852 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:14+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:55:14.871867 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:55:14.874582 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:55:14.874897 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:55:14.875338 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] INFO: Running start handlersI, [2015-03-18T10:55:14.875830 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] INFO: Start handlers complete.I, [2015-03-18T10:55:14.876171 #4830]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:55:14.881089 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] WARN: Cloning resource attributes for kickstart-lwrp[exampleconfig] from prior resource (CHEF-3694)I, [2015-03-18T10:55:14.883531 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] WARN: Previous kickstart-lwrp[exampleconfig]: /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:10:in `from_file'I, [2015-03-18T10:55:14.883776 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] WARN: Current  kickstart-lwrp[exampleconfig]: /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:21:in `from_file'I, [2015-03-18T10:55:14.884149 #4830]  INFO -- default-ubuntu-1404: 
+Converging 2 resources[0mI, [2015-03-18T10:55:14.884859 #4830]  INFO -- default-ubuntu-1404: 
+Recipe: kickstart-lwrp::default[0mI, [2015-03-18T10:55:14.885337 #4830]  INFO -- default-ubuntu-1404: 
+  * kickstart-lwrp[exampleconfig] action create[2015-03-18T17:55:15+00:00] INFO: Processing kickstart-lwrp[exampleconfig] action create (kickstart-lwrp::default line 10)I, [2015-03-18T10:55:14.886164 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] ERROR: Our file already exists. Not Creating.I, [2015-03-18T10:55:14.888333 #4830]  INFO -- default-ubuntu-1404: 
+ (up to date)I, [2015-03-18T10:55:14.888958 #4830]  INFO -- default-ubuntu-1404: 
+  * kickstart-lwrp[exampleconfig] action delete[2015-03-18T17:55:15+00:00] INFO: Processing kickstart-lwrp[exampleconfig] action delete (kickstart-lwrp::default line 21)I, [2015-03-18T10:55:14.889812 #4830]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:55:14.890963 #4830]  INFO -- default-ubuntu-1404: 
+    [32m- Deleting.[0mI, [2015-03-18T10:55:14.891521 #4830]  INFO -- default-ubuntu-1404: 
+    * template[/var/exampleconfig] action delete[2015-03-18T17:55:15+00:00] INFO: Processing template[/var/exampleconfig] action delete (/tmp/kitchen/cookbooks/kickstart-lwrp/providers/default.rb line 86)I, [2015-03-18T10:55:14.892321 #4830]  INFO -- default-ubuntu-1404: 
+ (up to date)I, [2015-03-18T10:55:14.896090 #4830]  INFO -- default-ubuntu-1404: 
+  I, [2015-03-18T10:55:14.896763 #4830]  INFO -- default-ubuntu-1404: 
+[0m[2015-03-18T17:55:15+00:00] INFO: Chef Run complete in 0.021344106 secondsI, [2015-03-18T10:55:14.897318 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] INFO: Skipping removal of unused files from the cacheI, [2015-03-18T10:55:14.897660 #4830]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:55:14.898066 #4830]  INFO -- default-ubuntu-1404: 
+Running handlers:[0mI, [2015-03-18T10:55:14.898416 #4830]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:15+00:00] INFO: Running report handlersI, [2015-03-18T10:55:14.899190 #4830]  INFO -- default-ubuntu-1404: 
+Running handlers completeI, [2015-03-18T10:55:14.899586 #4830]  INFO -- default-ubuntu-1404: 
+[0m[2015-03-18T17:55:15+00:00] INFO: Report handlers completeI, [2015-03-18T10:55:14.900087 #4830]  INFO -- default-ubuntu-1404: 
+Chef Client finished, 1/3 resources updated in 6.42036763 seconds[0mI, [2015-03-18T10:55:14.900488 #4830]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:55:14.993598 #4830]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m14.79s).
+I, [2015-03-18T10:55:40.276519 #4904]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T10:55:40.278413 #4904]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T10:55:40.278721 #4904]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T10:55:40.281822 #4904]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T10:55:47.564262 #4904]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T17:55:48+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T10:55:48.382386 #4904]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T10:55:48.434485 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:48+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T10:55:48.434753 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:48+00:00] INFO: Chef-client pid: 4081I, [2015-03-18T10:55:48.435169 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T10:55:54.787963 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T10:55:54.790493 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T10:55:54.790852 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T10:55:54.791145 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] INFO: Running start handlersI, [2015-03-18T10:55:54.791424 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] INFO: Start handlers complete.I, [2015-03-18T10:55:54.791861 #4904]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T10:55:54.796516 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] WARN: Cloning resource attributes for kickstart-lwrp[exampleconfig] from prior resource (CHEF-3694)I, [2015-03-18T10:55:54.799423 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] WARN: Previous kickstart-lwrp[exampleconfig]: /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:10:in `from_file'I, [2015-03-18T10:55:54.799812 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] WARN: Current  kickstart-lwrp[exampleconfig]: /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:21:in `from_file'I, [2015-03-18T10:55:54.800190 #4904]  INFO -- default-ubuntu-1404: 
+Converging 2 resources[0mI, [2015-03-18T10:55:54.800715 #4904]  INFO -- default-ubuntu-1404: 
+Recipe: kickstart-lwrp::default[0mI, [2015-03-18T10:55:54.801232 #4904]  INFO -- default-ubuntu-1404: 
+  * kickstart-lwrp[exampleconfig] action create[2015-03-18T17:55:54+00:00] INFO: Processing kickstart-lwrp[exampleconfig] action create (kickstart-lwrp::default line 10)I, [2015-03-18T10:55:54.802082 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] ERROR: Our file already exists. Not Creating.I, [2015-03-18T10:55:54.804211 #4904]  INFO -- default-ubuntu-1404: 
+ (up to date)I, [2015-03-18T10:55:54.804689 #4904]  INFO -- default-ubuntu-1404: 
+  * kickstart-lwrp[exampleconfig] action delete[2015-03-18T17:55:54+00:00] INFO: Processing kickstart-lwrp[exampleconfig] action delete (kickstart-lwrp::default line 21)I, [2015-03-18T10:55:54.805512 #4904]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:55:54.806706 #4904]  INFO -- default-ubuntu-1404: 
+    [32m- Deleting.[0mI, [2015-03-18T10:55:54.807949 #4904]  INFO -- default-ubuntu-1404: 
+    * template[/var/exampleconfig] action delete[2015-03-18T17:55:54+00:00] INFO: Processing template[/var/exampleconfig] action delete (/tmp/kitchen/cookbooks/kickstart-lwrp/providers/default.rb line 86)I, [2015-03-18T10:55:54.808677 #4904]  INFO -- default-ubuntu-1404: 
+ (up to date)I, [2015-03-18T10:55:54.812655 #4904]  INFO -- default-ubuntu-1404: 
+  I, [2015-03-18T10:55:54.813102 #4904]  INFO -- default-ubuntu-1404: 
+[0m[2015-03-18T17:55:54+00:00] INFO: Chef Run complete in 0.022020082 secondsI, [2015-03-18T10:55:54.813505 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] INFO: Skipping removal of unused files from the cacheI, [2015-03-18T10:55:54.813946 #4904]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T10:55:54.814285 #4904]  INFO -- default-ubuntu-1404: 
+Running handlers:[0mI, [2015-03-18T10:55:54.814614 #4904]  INFO -- default-ubuntu-1404: 
+[2015-03-18T17:55:54+00:00] INFO: Running report handlersI, [2015-03-18T10:55:54.815081 #4904]  INFO -- default-ubuntu-1404: 
+Running handlers completeI, [2015-03-18T10:55:54.815576 #4904]  INFO -- default-ubuntu-1404: 
+[0m[2015-03-18T17:55:54+00:00] INFO: Report handlers completeI, [2015-03-18T10:55:54.816018 #4904]  INFO -- default-ubuntu-1404: 
+Chef Client finished, 1/3 resources updated in 6.435064473 seconds[0mI, [2015-03-18T10:55:54.816530 #4904]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T10:55:54.901802 #4904]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m14.62s).
