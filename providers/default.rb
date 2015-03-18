@@ -63,7 +63,7 @@ def load_current_resource
   @current_resource.hash_param(@new_resource.hash_param)
 
   #Get current state
-  @current_resource.exists = ::File.file?("/var/#{ new_resource.name }")
+  @current_resource.exists = ::File.file?("/var/#{ @new_resource.name }")
 
 end
 

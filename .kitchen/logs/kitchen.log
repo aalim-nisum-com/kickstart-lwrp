@@ -1025,3 +1025,9 @@ I, [2015-03-18T10:55:14.993799 #4830]  INFO -- Kitchen: -----> Kitchen is finish
 I, [2015-03-18T10:55:39.994114 #4904]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
 I, [2015-03-18T10:55:40.276435 #4904]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
 I, [2015-03-18T10:55:54.901955 #4904]  INFO -- Kitchen: -----> Kitchen is finished. (0m14.91s)
+I, [2015-03-18T11:21:41.248911 #5267]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2015-03-18T11:21:41.527556 #5267]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T11:21:56.265749 #5267]  INFO -- Kitchen: -----> Kitchen is finished. (0m15.02s)
+I, [2015-03-18T11:22:41.528719 #5343]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2015-03-18T11:22:41.807004 #5343]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2015-03-18T11:22:46.492053 #5343]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.96s)

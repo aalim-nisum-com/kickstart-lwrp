@@ -1095,3 +1095,67 @@ Running handlers completeI, [2015-03-18T10:55:54.815576 #4904]  INFO -- default-
 [0m[2015-03-18T17:55:54+00:00] INFO: Report handlers completeI, [2015-03-18T10:55:54.816018 #4904]  INFO -- default-ubuntu-1404: 
 Chef Client finished, 1/3 resources updated in 6.435064473 seconds[0mI, [2015-03-18T10:55:54.816530 #4904]  INFO -- default-ubuntu-1404: 
 I, [2015-03-18T10:55:54.901802 #4904]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m14.62s).
+I, [2015-03-18T11:21:41.527632 #5267]  INFO -- default-ubuntu-1404: -----> Converging <default-ubuntu-1404>...
+I, [2015-03-18T11:21:41.529562 #5267]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2015-03-18T11:21:41.529893 #5267]  INFO -- default-ubuntu-1404: Preparing current project directory as a cookbook
+I, [2015-03-18T11:21:41.533153 #5267]  INFO -- default-ubuntu-1404: Removing non-cookbook files before transfer
+I, [2015-03-18T11:21:48.954661 #5267]  INFO -- default-ubuntu-1404: Transfering files to <default-ubuntu-1404>
+[2015-03-18T18:21:49+00:00] INFO: Forking chef instance to converge...I, [2015-03-18T11:21:49.767476 #5267]  INFO -- default-ubuntu-1404: 
+Starting Chef Client, version 12.1.1[0mI, [2015-03-18T11:21:49.832659 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:50+00:00] INFO: *** Chef 12.1.1 ***I, [2015-03-18T11:21:49.833110 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:50+00:00] INFO: Chef-client pid: 4314I, [2015-03-18T11:21:49.833486 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: Setting the run_list to ["recipe[kickstart-lwrp::default]"] from CLI optionsI, [2015-03-18T11:21:56.132292 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: Run List is [recipe[kickstart-lwrp::default]]I, [2015-03-18T11:21:56.135499 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: Run List expands to [kickstart-lwrp::default]I, [2015-03-18T11:21:56.135915 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: Starting Chef Run for default-ubuntu-1404I, [2015-03-18T11:21:56.136412 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: Running start handlersI, [2015-03-18T11:21:56.136875 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: Start handlers complete.I, [2015-03-18T11:21:56.137542 #5267]  INFO -- default-ubuntu-1404: 
+Compiling Cookbooks...[0mI, [2015-03-18T11:21:56.142484 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] WARN: Cloning resource attributes for kickstart-lwrp[exampleconfig] from prior resource (CHEF-3694)I, [2015-03-18T11:21:56.145475 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] WARN: Previous kickstart-lwrp[exampleconfig]: /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:10:in `from_file'I, [2015-03-18T11:21:56.145873 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] WARN: Current  kickstart-lwrp[exampleconfig]: /tmp/kitchen/cookbooks/kickstart-lwrp/recipes/default.rb:21:in `from_file'I, [2015-03-18T11:21:56.146293 #5267]  INFO -- default-ubuntu-1404: 
+Converging 2 resources[0mI, [2015-03-18T11:21:56.146996 #5267]  INFO -- default-ubuntu-1404: 
+Recipe: kickstart-lwrp::default[0mI, [2015-03-18T11:21:56.147729 #5267]  INFO -- default-ubuntu-1404: 
+  * kickstart-lwrp[exampleconfig] action create[2015-03-18T18:21:56+00:00] INFO: Processing kickstart-lwrp[exampleconfig] action create (kickstart-lwrp::default line 10)I, [2015-03-18T11:21:56.148745 #5267]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T11:21:56.151635 #5267]  INFO -- default-ubuntu-1404: 
+    [32m- Creating.[0mI, [2015-03-18T11:21:56.152255 #5267]  INFO -- default-ubuntu-1404: 
+    * template[/var/exampleconfig] action create[2015-03-18T18:21:56+00:00] INFO: Processing template[/var/exampleconfig] action create (/tmp/kitchen/cookbooks/kickstart-lwrp/providers/default.rb line 73)I, [2015-03-18T11:21:56.153236 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: template[/var/exampleconfig] created file /var/exampleconfigI, [2015-03-18T11:21:56.158126 #5267]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T11:21:56.158382 #5267]  INFO -- default-ubuntu-1404: 
+      [32m- create new file /var/exampleconfig[0m[2015-03-18T18:21:56+00:00] INFO: template[/var/exampleconfig] updated file contents /var/exampleconfigI, [2015-03-18T11:21:56.160594 #5267]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T11:21:56.160841 #5267]  INFO -- default-ubuntu-1404: 
+      [32m- update content in file /var/exampleconfig from none to e52cf7[0mI, [2015-03-18T11:21:56.161447 #5267]  INFO -- default-ubuntu-1404: 
+      [37m--- /var/exampleconfig	2015-03-18 18:21:56.343900585 +0000[0mI, [2015-03-18T11:21:56.162759 #5267]  INFO -- default-ubuntu-1404: 
+      [37m+++ /tmp/chef-rendered-template20150318-4314-11cjxal	2015-03-18 18:21:56.343900585 +0000[0mI, [2015-03-18T11:21:56.163786 #5267]  INFO -- default-ubuntu-1404: 
+      [37m@@ -1 +1,6 @@[0mI, [2015-03-18T11:21:56.164278 #5267]  INFO -- default-ubuntu-1404: 
+      [37m+string_param = this is a string[0mI, [2015-03-18T11:21:56.164900 #5267]  INFO -- default-ubuntu-1404: 
+      [37m+boolean_param = true[0mI, [2015-03-18T11:21:56.165782 #5267]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T11:21:56.165820 #5267]  INFO -- default-ubuntu-1404:       [37m+array_param = [0m
+I, [2015-03-18T11:21:56.165846 #5267]  INFO -- default-ubuntu-1404:       
+I, [2015-03-18T11:21:56.166900 #5267]  INFO -- default-ubuntu-1404: [37m+param['a'] = 2[0m
+I, [2015-03-18T11:21:56.166975 #5267]  INFO -- default-ubuntu-1404:       [37m+param['b'] = 3[0m
+[0m  I, [2015-03-18T11:21:56.167830 #5267]  INFO -- default-ubuntu-1404: 
+[0m  * kickstart-lwrp[exampleconfig] action deleteI, [2015-03-18T11:21:56.169884 #5267]  INFO -- default-ubuntu-1404: [2015-03-18T18:21:56+00:00] INFO: Processing kickstart-lwrp[exampleconfig] action delete (kickstart-lwrp::default line 21)
+I, [2015-03-18T11:21:56.169943 #5267]  INFO -- default-ubuntu-1404: 
+    [32m- Deleting.[0mI, [2015-03-18T11:21:56.170429 #5267]  INFO -- default-ubuntu-1404: 
+    * template[/var/exampleconfig] action delete[2015-03-18T18:21:56+00:00] INFO: Processing template[/var/exampleconfig] action delete (/tmp/kitchen/cookbooks/kickstart-lwrp/providers/default.rb line 93)I, [2015-03-18T11:21:56.171226 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: template[/var/exampleconfig] backed up to /tmp/kitchen/backup/var/exampleconfig.chef-20150318182156.363183I, [2015-03-18T11:21:56.173471 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: template[/var/exampleconfig] deleted file at /var/exampleconfigI, [2015-03-18T11:21:56.174028 #5267]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T11:21:56.174182 #5267]  INFO -- default-ubuntu-1404: 
+      [32m- delete file /var/exampleconfig[0mI, [2015-03-18T11:21:56.174805 #5267]  INFO -- default-ubuntu-1404: 
+[0m  I, [2015-03-18T11:21:56.175600 #5267]  INFO -- default-ubuntu-1404: 
+[0m[2015-03-18T18:21:56+00:00] INFO: Chef Run complete in 0.039902354 secondsI, [2015-03-18T11:21:56.176012 #5267]  INFO -- default-ubuntu-1404: 
+[2015-03-18T18:21:56+00:00] INFO: Skipping removal of unused files from the cacheI, [2015-03-18T11:21:56.176488 #5267]  INFO -- default-ubuntu-1404: 
+[0mI, [2015-03-18T11:21:56.176810 #5267]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T11:21:56.177118 #5267]  INFO -- default-ubuntu-1404: Running handlers:[0m
+I, [2015-03-18T11:21:56.177151 #5267]  INFO -- default-ubuntu-1404: [2015-03-18T18:21:56+00:00] INFO: Running report handlers
+I, [2015-03-18T11:21:56.177177 #5267]  INFO -- default-ubuntu-1404: Running handlers complete
+I, [2015-03-18T11:21:56.177392 #5267]  INFO -- default-ubuntu-1404: 
+I, [2015-03-18T11:21:56.177425 #5267]  INFO -- default-ubuntu-1404: [0m[2015-03-18T18:21:56+00:00] INFO: Report handlers complete
+I, [2015-03-18T11:21:56.177473 #5267]  INFO -- default-ubuntu-1404: Chef Client finished, 4/4 resources updated in 6.410676517 seconds[0m
+I, [2015-03-18T11:21:56.265572 #5267]  INFO -- default-ubuntu-1404: Finished converging <default-ubuntu-1404> (0m14.74s).
+I, [2015-03-18T11:22:41.807077 #5343]  INFO -- default-ubuntu-1404: -----> Destroying <default-ubuntu-1404>...
+I, [2015-03-18T11:22:44.940462 #5343]  INFO -- default-ubuntu-1404: ==> default: Forcing shutdown of VM...
+I, [2015-03-18T11:22:46.034701 #5343]  INFO -- default-ubuntu-1404: ==> default: Destroying VM and associated drives...
+I, [2015-03-18T11:22:46.490113 #5343]  INFO -- default-ubuntu-1404: Vagrant instance <default-ubuntu-1404> destroyed.
+I, [2015-03-18T11:22:46.491537 #5343]  INFO -- default-ubuntu-1404: Finished destroying <default-ubuntu-1404> (0m4.68s).
