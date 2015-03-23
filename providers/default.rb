@@ -55,9 +55,9 @@ def load_current_resource
   #If I were to create something other than default, say service.rb in my provider/resource.  This would then be KickstartLwrpService.new and you
   #would access it in your recipes with kickstart_lwrp_service.
 
-  #A common step is to load the current_resource instance variables with what is established in the new_resource.  Keep in mind current_resource lives in Provider and new_resource
-  #lives in the Resource.  What is passed into new_resouce via our recipes, is not automatically passed to our current_resource.
-  @current_resource.string_param(@new_resource.string_param)  #DSL converts our parameters/attrbutes to methods to get and set the instance variable inside the Provider and Resource
+  #A common step is to load the current_resource instance variables with what is established in the new_resource.
+  #What is passed into new_resouce via our recipes, is not automatically passed to our current_resource.
+  @current_resource.string_param(@new_resource.string_param)  #DSL converts our parameters/attrbutes to methods to get and set the instance variable inside the Provider and Resource.
   @current_resource.boolean_param(@new_resource.boolean_param)
   @current_resource.array_param(@new_resource.array_param)
   @current_resource.hash_param(@new_resource.hash_param)
